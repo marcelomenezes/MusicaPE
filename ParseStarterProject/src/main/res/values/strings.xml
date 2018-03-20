@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2015-present, Parse, LLC.
+  ~ All rights reserved.
+  ~
+  ~ This source code is licensed under the BSD-style license found in the
+  ~ LICENSE file in the root directory of this source tree. An additional grant
+  ~ of patent rights can be found in the PATENTS file in the same directory.
+  -->
+<resources>
+    <string name="parse_app_id">YOUR_APPLICATION_ID</string>
+    <string name="parse_client_key">YOUR_CLIENT_KEY</string>
+
+    <string name="app_name">Música PE</string>
+
+    <string name="action_configuracoes">Configurações do Perfil</string>
+    <string name="action_sair">Sair</string>
+    <string name="action_adicionar_evento">Adicionar Evento</string>
+    <string name="action_pesquisar">Pesquisar</string>
+
+    <string name="semContaLogin">Não tem conta? Clique aqui para cadastrar.</string>
+    <string name="semContaCadastro">Já tem conta? Clique aqui.</string>
+    <string name="checkArtista">Caso seja artista, marque.</string>
+
+    <string name="nomeUsuario">Usuário</string>
+    <string name="senha">Senha</string>
+
+    <string name="cadastroNome">Digite o nome do(a) artista/grupo/pessoa</string>
+    <string name="cadastroUsuário">Digite o nome de usuário para login</string>
+    <string name="cadastroEmail">Digite seu email</string>
+    <string name="cadastroSenha">Digite sua senha</string>
+
+    <string name="botaoCadastrar">Cadastrar</string>
+    <string name="botaoLogas">Logar</string>
+
+    <string name="hintBusca">Buscar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_perfil_artista">PerfilArtistaActivity</string>
+    <string name="title_activity_perfil_config_artista">PerfilConfigArtistaActivity</string>
+    <string name="title_activity_perfil_config_evento">PerfilConfigEventoActivity</string>
+    <string name="title_activity_perfil_evento">PerfilEventoActivity</string>
+
+</resources>
