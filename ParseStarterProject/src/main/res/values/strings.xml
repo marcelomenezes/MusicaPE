@@ -16,6 +16,7 @@
     <string name="action_sair">Sair</string>
     <string name="action_adicionar_evento">Adicionar Evento</string>
     <string name="action_pesquisar">Pesquisar</string>
+    <string name="action_filtrar_ritmo">Filtrar Ritmo</string>
 
     <string name="semContaLogin">Não tem conta? Clique aqui para cadastrar.</string>
     <string name="semContaCadastro">Já tem conta? Clique aqui.</string>
@@ -40,5 +41,6 @@
     <string name="title_activity_perfil_config_artista">PerfilConfigArtistaActivity</string>
     <string name="title_activity_perfil_config_evento">PerfilConfigEventoActivity</string>
     <string name="title_activity_perfil_evento">PerfilEventoActivity</string>
+    
 
 </resources>

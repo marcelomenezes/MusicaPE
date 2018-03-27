@@ -109,6 +109,14 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         searchView.setOnQueryTextListener(this);
         searchView.setQueryHint(getString(R.string.hintBusca));
 
+        MenuItem filtro = menu.findItem(R.id.action_filtrar_ritmo);
+        SearchView searchViewFiltro = (SearchView) MenuItemCompat.getActionView(filtro);
+        //searchView.setOnClickListener(this);
+
+
+
+
+
         //SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
         //searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         return true;

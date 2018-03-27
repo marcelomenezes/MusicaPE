@@ -47,6 +47,11 @@ public class ArtistaFragment extends Fragment{
     private ParseQuery<ParseUser> query;
 
 
+    String[] arrayRitmo = new String[]{"baião", "brega-romântico", "brega-pop", "brega-funk", "ciranda",
+                                        "coco", "cavalo-marinho", "forró", "frevo", "maracatu", "caboclinho",
+                                        "xaxado", "manguebeat", "rap", "sertanejo", "rock", "samba",
+                                        "pop"};
+
 
 
 

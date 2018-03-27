@@ -29,7 +29,9 @@ application
 ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:16:5-84:19
 MERGED from [com.android.support:design:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.4.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:20:9-41
 	android:allowBackup
@@ -136,8 +138,12 @@ uses-sdk
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.4.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.4.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-compat:25.0.1] /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:23:9-55
 	android:targetSdkVersion
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml

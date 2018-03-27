@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/marcelomenezes/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_e0f7e1ce51544bb6c6cc52a7292f0071fbc3dea9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
         jumboMode="true"
         optimize="true"
@@ -21,30 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jar="/Users/marcelomenezes/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_8e16d3a20f62170add8d9320be1be7a8dedec41a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_4ee4f929c13eda635dda4a723a172d47cc470064/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="738deffaaf3b24b55db7dc6b925aa65209ef9725">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e33d2d9499d8301e1e70d13c59551691afb5be3e/classes.dex" />
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_e0f7e1ce51544bb6c6cc52a7292f0071fbc3dea9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,30 +30,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/design/22.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1821601ddbec5ff125653097812823388700af74">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-22.2.1_4b36da623860610f13fd6a8956ba0f9aa0aab402/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/marcelomenezes/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
         sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_a2bcc2fc8a0b873041aeb3230b2f536d40c3a7f1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_6f8e8255da7097a8fc2ac21b1bf91b81f0981be6/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -97,17 +52,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="99928441eb0d458bfccd3f0ebdedb2cbe73a8122">
+        sha1="c5e07be809b6ec989c2d9e2ae1503be30a4c1b10">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_2dcb2d2038d70b2a960c949b548b426aff573846/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -178,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.1"
-        sha1="ea42a61fa3ef965fc3410461b2b63eb4b626b8c2">
+        sha1="36418fa991e591dc737a8c6019d147ff56505b6d">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0/classes.dex" />
     </item>
     <item
@@ -188,7 +134,7 @@
         optimize="true"
         revision="23.0.1"
         sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_be20fc96950d45dd559a3d34578c0f373853921c/classes.dex" />
+        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_be20fc96950d45dd559a3d34578c0f373853921c/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -207,15 +153,6 @@
         revision="23.0.1"
         sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
         <dex dex="/Users/marcelomenezes/AndroidStudioProjects/InstagramCurso/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_b077e36d3b442622817088a82c89ccd6bf76c22f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.1"
-        sha1="1de9da54c8338ac105c8cd018cfcf5497e03886f">
-        <dex dex="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eedbb338801b62cbba670eb87e6b47b7cfa43549/classes.dex" />
     </item>
     <item
         is-multidex="true"

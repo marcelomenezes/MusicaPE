@@ -2042,11 +2042,12 @@ containing a value of this type.
         public static final int ic_keyboard_arrow_left=0x7f020044;
         public static final int ic_play_circle_filled=0x7f020045;
         public static final int ic_recent_actors=0x7f020046;
-        public static final int logo=0x7f020047;
-        public static final int notification_template_icon_bg=0x7f02004b;
-        public static final int snackbar_background=0x7f020048;
-        public static final int som_ic=0x7f020049;
-        public static final int usuario=0x7f02004a;
+        public static final int ic_tune=0x7f020047;
+        public static final int logo=0x7f020048;
+        public static final int notification_template_icon_bg=0x7f02004c;
+        public static final int snackbar_background=0x7f020049;
+        public static final int som_ic=0x7f02004a;
+        public static final int usuario=0x7f02004b;
     }
     public static final class id {
         public static final int LogoId=0x7f0c0073;
@@ -2062,6 +2063,7 @@ containing a value of this type.
         public static final int action_configuracoes=0x7f0c00b5;
         public static final int action_context_bar=0x7f0c0059;
         public static final int action_divider=0x7f0c00ab;
+        public static final int action_filtrar_ritmo=0x7f0c00b9;
         public static final int action_menu_divider=0x7f0c0002;
         public static final int action_menu_presenter=0x7f0c0003;
         public static final int action_mode_bar=0x7f0c0055;
@@ -2336,30 +2338,31 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f060010;
         public static final int action_adicionar_evento=0x7f060011;
         public static final int action_configuracoes=0x7f060012;
-        public static final int action_pesquisar=0x7f060013;
-        public static final int action_sair=0x7f060014;
-        public static final int app_name=0x7f060015;
-        public static final int appbar_scrolling_view_behavior=0x7f060016;
-        public static final int botaoCadastrar=0x7f060017;
-        public static final int botaoLogas=0x7f060018;
-        public static final int cadastroEmail=0x7f060019;
-        public static final int cadastroNome=0x7f06001a;
-        public static final int cadastroSenha=0x7f06001b;
-        public static final int cadastroUsuário=0x7f06001c;
-        public static final int checkArtista=0x7f06001d;
-        public static final int hello_blank_fragment=0x7f06001e;
-        public static final int hintBusca=0x7f06001f;
-        public static final int nomeUsuario=0x7f060020;
-        public static final int parse_app_id=0x7f060021;
-        public static final int parse_client_key=0x7f060022;
-        public static final int semContaCadastro=0x7f060023;
-        public static final int semContaLogin=0x7f060024;
-        public static final int senha=0x7f060025;
-        public static final int status_bar_notification_info_overflow=0x7f060026;
-        public static final int title_activity_perfil_artista=0x7f060027;
-        public static final int title_activity_perfil_config_artista=0x7f060028;
-        public static final int title_activity_perfil_config_evento=0x7f060029;
-        public static final int title_activity_perfil_evento=0x7f06002a;
+        public static final int action_filtrar_ritmo=0x7f060013;
+        public static final int action_pesquisar=0x7f060014;
+        public static final int action_sair=0x7f060015;
+        public static final int app_name=0x7f060016;
+        public static final int appbar_scrolling_view_behavior=0x7f060017;
+        public static final int botaoCadastrar=0x7f060018;
+        public static final int botaoLogas=0x7f060019;
+        public static final int cadastroEmail=0x7f06001a;
+        public static final int cadastroNome=0x7f06001b;
+        public static final int cadastroSenha=0x7f06001c;
+        public static final int cadastroUsuário=0x7f06001d;
+        public static final int checkArtista=0x7f06001e;
+        public static final int hello_blank_fragment=0x7f06001f;
+        public static final int hintBusca=0x7f060020;
+        public static final int nomeUsuario=0x7f060021;
+        public static final int parse_app_id=0x7f060022;
+        public static final int parse_client_key=0x7f060023;
+        public static final int semContaCadastro=0x7f060024;
+        public static final int semContaLogin=0x7f060025;
+        public static final int senha=0x7f060026;
+        public static final int status_bar_notification_info_overflow=0x7f060027;
+        public static final int title_activity_perfil_artista=0x7f060028;
+        public static final int title_activity_perfil_config_artista=0x7f060029;
+        public static final int title_activity_perfil_config_evento=0x7f06002a;
+        public static final int title_activity_perfil_evento=0x7f06002b;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f080074;
@@ -4833,12 +4836,14 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_layoutManager com.parse.starter:layoutManager}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_reverseLayout com.parse.starter:reverseLayout}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_spanCount com.parse.starter:spanCount}</code></td><td></td></tr>
            <tr><td><code>{@link #RecyclerView_stackFromEnd com.parse.starter:stackFromEnd}</code></td><td></td></tr>
            </table>
+           @see #RecyclerView_android_descendantFocusability
            @see #RecyclerView_android_orientation
            @see #RecyclerView_layoutManager
            @see #RecyclerView_reverseLayout
@@ -4846,9 +4851,15 @@ containing a value of this type.
            @see #RecyclerView_stackFromEnd
          */
         public static final int[] RecyclerView = {
-            0x010100c4, 0x7f010054, 0x7f010055, 0x7f010056,
-            0x7f010057
+            0x010100c4, 0x010100f1, 0x7f010054, 0x7f010055,
+            0x7f010056, 0x7f010057
         };
+        /**
+          <p>This symbol is the offset where the {@link android.R.attr#descendantFocusability}
+          attribute's value can be found in the {@link #RecyclerView} array.
+          @attr name android:descendantFocusability
+        */
+        public static final int RecyclerView_android_descendantFocusability = 1;
         /**
           <p>This symbol is the offset where the {@link android.R.attr#orientation}
           attribute's value can be found in the {@link #RecyclerView} array.
@@ -4868,7 +4879,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.parse.starter:layoutManager
         */
-        public static final int RecyclerView_layoutManager = 1;
+        public static final int RecyclerView_layoutManager = 2;
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#reverseLayout}
           attribute's value can be found in the {@link #RecyclerView} array.
@@ -4882,7 +4893,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.parse.starter:reverseLayout
         */
-        public static final int RecyclerView_reverseLayout = 3;
+        public static final int RecyclerView_reverseLayout = 4;
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#spanCount}
           attribute's value can be found in the {@link #RecyclerView} array.
@@ -4896,7 +4907,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.parse.starter:spanCount
         */
-        public static final int RecyclerView_spanCount = 2;
+        public static final int RecyclerView_spanCount = 3;
         /**
           <p>This symbol is the offset where the {@link com.parse.starter.R.attr#stackFromEnd}
           attribute's value can be found in the {@link #RecyclerView} array.
@@ -4910,7 +4921,7 @@ theme attribute (in the form
 containing a value of this type.
           @attr name com.parse.starter:stackFromEnd
         */
-        public static final int RecyclerView_stackFromEnd = 4;
+        public static final int RecyclerView_stackFromEnd = 5;
         /** Attributes that can be used with a ScrimInsetsFrameLayout.
            <p>Includes the following attributes:</p>
            <table>

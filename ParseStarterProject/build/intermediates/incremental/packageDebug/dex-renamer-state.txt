@@ -1,7 +1,7 @@
-#Mon Mar 19 05:52:54 BRT 2018
-base.0=/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eedbb338801b62cbba670eb87e6b47b7cfa43549
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e33d2d9499d8301e1e70d13c59551691afb5be3e/classes.dex
-base.1=/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e33d2d9499d8301e1e70d13c59551691afb5be3e
-file.0=/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_eedbb338801b62cbba670eb87e6b47b7cfa43549/classes.dex
+#Mon Mar 26 20:59:33 BRT 2018
+base.0=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0/classes.dex
+base.1=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f929e18d07418bb92190a57642fbcae4164c8cb0
+file.0=/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f5ab592c558c421e6a8514c858bf77fb756d0637/classes.dex

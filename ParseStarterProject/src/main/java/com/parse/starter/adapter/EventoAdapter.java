@@ -33,47 +33,56 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
 
-        View view = convertView;
+        View view = null;
 
 
+        ViewHolder holder = null;
         /*
         Verifica se não tem view criada
         */
-        if( view == null){
+        if( view == null) {
 
             //Inicializa o objeto para montagem do layout
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
 
             //Monta a partir do xml
             view = inflater.inflate(R.layout.lista_evento, parent, false);
+            holder = new ViewHolder();
+
+
+            //Recupera os elementos para exibição
+            holder.textNomeEvento = (TextView) view.findViewById(R.id.text_nome_lista_evento);
+             holder.textEnderecoEvento = (TextView) view.findViewById(R.id.text_endereco_lista_evento);
+
+            holder.imagemEvento = (ImageView) view.findViewById(R.id.imagem_lista_evento);
+
+            //verifica se existe eventos listados
+            if (eventos_listados.size() > 0) {
+
+
+                //Configurar TextView para exibir os eventos
+                ParseObject parseObject = eventos_listados.get(position);
+                holder.textNomeEvento.setText(parseObject.getString("nomeEvento"));
+                holder.textEnderecoEvento.setText(parseObject.getString("detalhesEvento"));
+
+
+                Picasso.with(context)
+                        .load(parseObject.getParseFile("imagem").getUrl())
+                        .fit()
+                        .into(holder.imagemEvento);
+            }
+        }else{
+            view = convertView;
         }
-
-        //Recupera os elementos para exibição
-        TextView textNomeEvento = (TextView) view.findViewById(R.id.text_nome_lista_evento);
-        TextView textEnderecoEvento = (TextView) view.findViewById(R.id.text_endereco_lista_evento);
-
-        ImageView imagemEvento = (ImageView) view.findViewById(R.id.imagem_lista_evento);
-
-        //verifica se existe eventos listados
-        if(eventos_listados.size() > 0){
-
-
-            //Configurar TextView para exibir os eventos
-            ParseObject parseObject = eventos_listados.get(position);
-            textNomeEvento.setText(parseObject.getString("nomeEvento"));
-            textEnderecoEvento.setText(parseObject.getString("detalhesEvento"));
-
-
-
-
-            Picasso.with(context)
-                    .load( parseObject.getParseFile("imagem").getUrl())
-                    .fit()
-                    .into(imagemEvento);
-        }
-
 
 
         return view;
+    }
+
+    static  class ViewHolder{
+        TextView textNomeEvento;
+        TextView textEnderecoEvento;
+
+        ImageView imagemEvento;
     }
 }

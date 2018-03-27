@@ -4,41 +4,27 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="6422733146409"
+    timestamp="2652584021749"
     token="5906133319232356102"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="671" />
+        duration="725" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="80" />
+        duration="26" />
     <task
         name="verifier"
-        duration="3" />
+        duration="4" />
 
     <artifact
-        location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-        type="DEX" />
+        location="/Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+        type="MAIN" />
 
-    <build
-        timestamp="5845091966605"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="6422733146409"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/marcelomenezes/AndroidStudioProjects/RecViewFrag/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
-            type="DEX" />
-    </build>
     <build
         timestamp="63091019335083"
         verifier="FULL_BUILD_REQUESTED" >

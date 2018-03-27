@@ -35,7 +35,7 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
     @Override
     public View getView(int position, View convertView, ViewGroup parent){
 
-        View view = convertView;
+        View view = null;
 
         ViewHolder holder = null;
 
@@ -68,16 +68,12 @@ public class ArtistaAdapter extends ArrayAdapter<ParseObject> {
                         .load( parseObject.getParseFile("imagem").getUrl())
                         .fit()
                         .into(holder.artistaPostagem);
-        }
-
-
-
-
-
-
+            }
 
         }
-
+        else{
+            view = convertView;
+        }
 
 
         return view;
