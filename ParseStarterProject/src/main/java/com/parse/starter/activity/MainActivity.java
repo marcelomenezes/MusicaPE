@@ -9,6 +9,7 @@
 package com.parse.starter.activity;
 
 import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -18,8 +19,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
+//import android.support.v7.app.ActionBarActivity;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -67,6 +71,10 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     private ArtistaFragment artistaFragment;
     private EventoFragment eventoFragment;
 
+    private Context context;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,12 +99,23 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         slidingTabLayout.setViewPager(viewPager);
 
 
+
+
         //fragmentManager = getSupportFragmentManager();
         //artistaFragment = (ArtistaFragment) fragmentManager.findFragmentById(R.id.lista_artistas);
         artistaFragment = (ArtistaFragment) tabsAdapter.getFragment(0);
         eventoFragment = (EventoFragment) tabsAdapter.getFragment(1);
 
+/*
+        //RecyclerView
+        List<ParseObject> artistas;
+        artistas = new ArrayList<>();
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.lista_artistas);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(new ArtistaAdapter(context, artistas));
+*/
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
