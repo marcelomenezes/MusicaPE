@@ -41,6 +41,9 @@
     <string name="title_activity_perfil_config_artista">PerfilConfigArtistaActivity</string>
     <string name="title_activity_perfil_config_evento">PerfilConfigEventoActivity</string>
     <string name="title_activity_perfil_evento">PerfilEventoActivity</string>
+
+
+    <string name="action_configurar_evento">Configurar este Evento</string>
     
 
 </resources>

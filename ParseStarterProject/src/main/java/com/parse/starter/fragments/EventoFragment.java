@@ -4,6 +4,7 @@ package com.parse.starter.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,13 +31,15 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class EventoFragment extends Fragment {
+public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
 
 
     private ListView listView;
     private List<ParseObject> eventos_listados, eventosFiltrados, recuperarEventos, carregarEventos;
     private ArrayAdapter<ParseObject> adapter, adaptado, retornado;
     private ParseQuery<ParseObject> query;
+
+    private SwipeRefreshLayout swipeRefreshLayout;
 
     public EventoFragment() {
         // Required empty public constructor
@@ -70,12 +73,16 @@ public class EventoFragment extends Fragment {
                 //Recupera os dados da listview
                 ParseObject parseObject = eventos_listados.get(position);
 
+
+                        //= parseObject.getString("username");
                 //Enviar os daos para a PerfilEventoActivity
                 Intent intent = new Intent(getActivity(), PerfilEventoActivity.class);
                 intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
                 intent.putExtra("nomeEvento", parseObject.getString("nomeEvento"));
                 intent.putExtra("detalhesEvento", parseObject.getString("detalhesEvento"));
                 intent.putExtra("enderecoEvento", parseObject.getString("enderecoEvento"));
+                intent.putExtra("nomeUsuario", parseObject.getString("nomeUsuario"));
+                //intent.putExtra("username", parseObject.)
                 //intent.putExtra("deDataEvento", parseObject.getString("deDataEvento"));
 
                 intent.putExtra("deDataEvento", parseObject.getDate("deDataEvento").toString());
@@ -86,7 +93,17 @@ public class EventoFragment extends Fragment {
             }
         });
 
+
+        //Swipe
+        swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout.setOnRefreshListener(this);
+
         return view;
+    }
+
+    @Override
+    public void onRefresh(){
+        atualizaEventos();
     }
 
     private void getEventosListados(){
@@ -107,8 +124,10 @@ public class EventoFragment extends Fragment {
                         for (ParseObject parseObject : objects){
                             eventos_listados.add(parseObject);
                         }
+                        swipeRefreshLayout.setRefreshing(false);
                         adapter.notifyDataSetChanged();
                         atualizaEventos();
+                        listView.requestLayout();
                     }
 
                 }else {//erro

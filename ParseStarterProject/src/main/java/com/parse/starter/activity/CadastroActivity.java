@@ -92,7 +92,7 @@ public class CadastroActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-        //criar objeto usuario
+        //criar objeto modelo usuario
         ParseUser usuario = new ParseUser();
         usuario.setUsername(cadastroUsuario.getText().toString());
         usuario.setEmail(cadastroEmail.getText().toString());

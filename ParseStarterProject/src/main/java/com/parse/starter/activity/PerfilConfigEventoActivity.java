@@ -236,7 +236,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
                             e.printStackTrace();
                         }
                         //Date finalDate = dataFormato.format(deDataEvento);
-
+                        //Criar objeto modelo evento
                         parseEvento.put("username", ParseUser.getCurrentUser());
                         parseEvento.put("nomeEvento", nomeEvento);
                         parseEvento.put("detalhesEvento", detalhesEvento);

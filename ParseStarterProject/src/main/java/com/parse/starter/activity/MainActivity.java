@@ -103,6 +103,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
 
         //fragmentManager = getSupportFragmentManager();
         //artistaFragment = (ArtistaFragment) fragmentManager.findFragmentById(R.id.lista_artistas);
+
+
+        //define O Sliding Tab
         artistaFragment = (ArtistaFragment) tabsAdapter.getFragment(0);
         eventoFragment = (EventoFragment) tabsAdapter.getFragment(1);
 

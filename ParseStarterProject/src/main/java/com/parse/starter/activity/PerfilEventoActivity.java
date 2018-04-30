@@ -6,11 +6,17 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
 import com.parse.starter.R;
 import com.squareup.picasso.Picasso;
 
@@ -26,6 +32,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
     private String enderecoEvento;
     private String imagemEventoUrl;
     private String deDataEvento;
+    private String nomeUser;
 
     private TextView nomeEventoText;
     private TextView detalhesEventoText;
@@ -36,6 +43,10 @@ public class PerfilEventoActivity extends AppCompatActivity {
     private Date date;
     private String deDataEventoFormatada;
 
+    private String usuario;
+
+    private ParseQuery<ParseObject> query;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +55,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
 
         //Recupera valores enviados do EventoFragment
         Intent intent = getIntent();
+        nomeUser = intent.getStringExtra("nomeUsuario");
         nomeEvento = intent.getStringExtra("nomeEvento");
         detalhesEvento = intent.getStringExtra("detalhesEvento");
         enderecoEvento = intent.getStringExtra("enderecoEvento");
@@ -72,13 +84,13 @@ public class PerfilEventoActivity extends AppCompatActivity {
         toolbar.setTitle(nomeEvento);
         toolbar.setTitleTextColor(R.color.preta);
         toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
-        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+      /*  toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();
             }
-        });
-        //setSupportActionBar(toolbar);
+        }); */
+        setSupportActionBar(toolbar);
 
         //Passar os valores pra o TextView
         nomeEventoText = (TextView) findViewById(R.id.text_nome_evento);
@@ -100,5 +112,38 @@ public class PerfilEventoActivity extends AppCompatActivity {
                 .into(imagemEvento);
 
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+
+        usuario = ParseUser.getCurrentUser().getUsername().toString();
+
+
+        if( usuario.equals(nomeUser)) {
+            MenuInflater inflater = getMenuInflater();
+            inflater.inflate(R.menu.menu_evento, menu);
+        } 
+
+        return  true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        switch (item.getItemId() ){
+            case R.id.action_configurar_evento:
+            adicionarEvento();
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    private void adicionarEvento(){
+
+        Intent intent = new Intent(this, PerfilConfigEventoActivity.class);
+        startActivity(intent);
+    }
+
 
 }

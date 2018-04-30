@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -37,7 +39,7 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ArtistaFragment extends Fragment{
+public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener{
 
 
     private ListView listView;
@@ -45,6 +47,8 @@ public class ArtistaFragment extends Fragment{
     private List<ParseObject> artistas,  carregado, resultado, carregarArtistas, artistasFiltrados;
     private ArrayAdapter<ParseObject> adapter, adaptado, retornado;
     private ParseQuery<ParseUser> query;
+
+    private SwipeRefreshLayout swipeRefreshLayout;
 
 
     String[] arrayRitmo = new String[]{"baião", "brega-romântico", "brega-pop", "brega-funk", "ciranda",
@@ -87,6 +91,7 @@ public class ArtistaFragment extends Fragment{
        carregarArtistas =  getArtistasCarregados();
         limparBusca();
 
+
         /*
         Adicionar click para artista e abrir o perfil respectivo
         */
@@ -108,8 +113,28 @@ public class ArtistaFragment extends Fragment{
             }
         });
 
+        //Swipe
+        swipeRefreshLayout = (SwipeRefreshLayout) view.findViewById(R.id.swipe_refresh_layout);
+        swipeRefreshLayout.setOnRefreshListener(this);
+        /*
+        swipeRefreshLayout.post(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        swipeRefreshLayout.setRefreshing(true);
+
+                                        atualizaArtistas();
+                                    }
+                                }
+        );
+*/
 
         return view;
+    }
+
+
+    @Override
+    public void onRefresh(){
+        atualizaArtistas();
     }
 
     public void getArtistas(){
@@ -133,9 +158,11 @@ public class ArtistaFragment extends Fragment{
                         for (ParseUser parseUser : objects){
                             artistas.add(parseUser);
                         }
-                        adapter.notifyDataSetChanged();
                         //retornado.notifyDataSetChanged();
                        // atualizaArtistas();
+                        swipeRefreshLayout.setRefreshing(false);
+                        adapter.notifyDataSetChanged();
+                        listView.requestLayout();
                     }
                 }else{//erro
 
@@ -146,7 +173,10 @@ public class ArtistaFragment extends Fragment{
 
     }
 
-    public void atualizaArtistas(){getArtistas();}
+    public void atualizaArtistas(){
+        getArtistas();
+
+    }
 
     public List<ParseObject> getArtistasCarregados(){
 
