@@ -19,79 +19,113 @@
             android:layout_height="50dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="172dp"
-            android:id="@+id/imagem_evento_config"/>
+            android:id="@+id/imagem_evento_config"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/text_data_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagem_evento_config"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Data:" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="160sp"
+            android:layout_below="@+id/text_data_id"
             android:layout_height="wrap_content"
             android:id="@+id/text_de_data_evento"
             android:inputType="date"
-            android:hint="dd/mm/aaaa"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="80dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp"
             android:focusableInTouchMode="false"
-            android:layout_below="@+id/imagem_evento_config" />
+            android:hint="De: dd/mm/aaaa" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="160sp"
+            android:layout_below="@+id/text_data_id"
             android:layout_height="wrap_content"
             android:id="@+id/text_ate_data_evento"
             android:inputType="date"
-            android:hint="dd/mm/aaaa"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="1dp"
             android:focusableInTouchMode="false"
-            android:layout_below="@+id/imagem_evento_config"
-            android:layout_toRightOf="@+id/text_de_data_evento"/>
+            android:layout_toRightOf="@+id/text_de_data_evento"
+            android:hint="Até: dd/mm/aaaa" />
+
+        <TextView
+            android:id="@+id/textview_evento_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_de_data_evento"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Evento:" />
 
         <EditText
             android:hint="Nome do Evento"
-            android:layout_width="wrap_content"
+            android:id="@+id/text_config_nome_evento"
+            android:layout_width="320sp"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:layout_below="@+id/text_de_data_evento"
-            android:id="@+id/text_config_nome_evento" />
+            android:layout_below="@+id/textview_evento_id"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp" />
 
-        <EditText
-            android:hint="Detalhes do Evento"
+        <TextView
+            android:id="@+id/textview_detalhes_evento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_config_nome_evento"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp"
-            android:id="@+id/text_config_introducao_evento"/>
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Detalhes:" />
 
         <EditText
+            android:hint="Detalhes do Evento"
+            android:id="@+id/text_config_introducao_evento"
+            android:layout_height="wrap_content"
+            android:layout_width="320sp"
+            android:layout_below="@+id/textview_detalhes_evento"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp" />
+
+        <TextView
+            android:id="@+id/textview_endereco_config"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_config_introducao_evento"
-            android:layout_marginTop="30dp"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Endereço:" />
+
+        <EditText
             android:hint="Endereço"
-            android:id="@+id/endereco_config_evento"/>
+            android:id="@+id/endereco_config_evento"
+            android:layout_width="320sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview_endereco_config"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1dp" />
 
         <Button
             android:text="Salvar Evento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/endereco_config_evento"
-            android:layout_centerHorizontal="true"
+            android:id="@+id/botao_salvar_evento"
             android:layout_marginTop="10dp"
-            android:id="@+id/botao_salvar_evento"/>
+            android:layout_marginLeft="120dp" />
 
         <Button
             android:text="Escolher Imagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:layout_alignBottom="@+id/imagem_evento_config"
             android:layout_toRightOf="@+id/imagem_evento_config"
             android:layout_toEndOf="@+id/text_config_nome_evento"
             android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
             android:id="@+id/botao_escolher_imagem_evento" />
-
 
     </RelativeLayout>
 </ScrollView>

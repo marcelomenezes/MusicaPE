@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.ImageView;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import com.parse.starter.R;
@@ -59,7 +60,7 @@ public class PerfilArtistaActivity extends AppCompatActivity {
         cidadeNomeText = (TextView) findViewById(R.id.text_cidade_perfil);
         introducaoText = (TextView) findViewById(R.id.text_introducao_perfil);
         imagemPerfil = (ImageView) findViewById(R.id.imagem_perfil);
-        linkURLText = (TextView) findViewById(R.id.lista_webView);
+        linkURLText = (TextView) findViewById(R.id.lista_rede);
 
 
         //associando o textview aos valores passados pelo intent

@@ -76,9 +76,20 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
     private DatePickerDialog ateDataEventoDialog;
     private SimpleDateFormat dataFormato;
 
+    private String objectId;
+
     private DatePicker datePicker;
     private Calendar calendar;
     private int year, month, day;
+
+    //valoes do intent
+    private String nomeEventoIntent;
+    private String detalhesEventoIntent;
+    private String enderecoEventoIntent;
+    private String deDataEventoIntent;
+    private String ateDataEventoIntent;
+    private String imagemEventoIntent;
+
 
 
 
@@ -111,7 +122,30 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         //configura o adapter
         //configurar adapter para atualização de lista do fragment
 
+        //recuperar valor do itent PerfilEventoActivity
+        Intent intent = getIntent();
+        nomeEventoIntent = intent.getStringExtra("nomeEvento");
+        detalhesEventoIntent = intent.getStringExtra("detalhesEvento");
+        enderecoEventoIntent = intent.getStringExtra("enderecoEvento");
+        deDataEventoIntent = intent.getStringExtra("deDataEvento");
+        ateDataEventoIntent = intent.getStringExtra("ateDataEvento");
+        imagemEventoIntent = intent.getStringExtra("imagem");
+
+        //setar valores passados por um evento já criado
+        nomeEventoEditText.setText(nomeEventoIntent);
+        detalhesEventoEditText.setText(detalhesEventoIntent);
+        enderecoEventoEditText.setText(enderecoEventoIntent);
+        deDataEventoSalvaText.setText(deDataEventoIntent);
+        ateDataEventoSalvaText.setText(ateDataEventoIntent);
+
+
+
         setData();
+
+        Picasso.with(this)
+                .load(imagemEventoIntent)
+                .fit()
+                .into(imagemEventoConfig);
 
 
 
@@ -126,7 +160,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
 
         //configurar toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_config_evento);
-        toolbar.setTitle("Adicionar Evento");
+        toolbar.setTitle("Salvar Evento");
         toolbar.setNavigationIcon(R.drawable.ic_keyboard_arrow_left);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

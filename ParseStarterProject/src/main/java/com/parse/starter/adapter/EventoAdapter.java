@@ -52,7 +52,7 @@ public class EventoAdapter extends ArrayAdapter<ParseObject> {
 
             //Recupera os elementos para exibição
             holder.textNomeEvento = (TextView) view.findViewById(R.id.text_nome_lista_evento);
-             holder.textEnderecoEvento = (TextView) view.findViewById(R.id.text_endereco_lista_evento);
+            holder.textEnderecoEvento = (TextView) view.findViewById(R.id.text_endereco_lista_evento);
 
             holder.imagemEvento = (ImageView) view.findViewById(R.id.imagem_lista_evento);
 

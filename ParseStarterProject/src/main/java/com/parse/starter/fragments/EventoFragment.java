@@ -86,6 +86,8 @@ public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRef
                 //intent.putExtra("deDataEvento", parseObject.getString("deDataEvento"));
 
                 intent.putExtra("deDataEvento", parseObject.getDate("deDataEvento").toString());
+                intent.putExtra("objectId", parseObject.getString("objectId"));
+                intent.putExtra("ateDataEvento", parseObject.getString("ateDataEvento"));
 
 
                 startActivity(intent);
@@ -209,6 +211,9 @@ public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRef
                 intent.putExtra("nomeEvento", parseObject.getString("nomeEvento"));
                 intent.putExtra("detalhesEvento", parseObject.getString("detalhesEvento"));
                 intent.putExtra("enderecoEvento", parseObject.getString("enderecoEvento"));
+                intent.putExtra("deDataEvento", parseObject.getString("deDataEvento"));
+                intent.putExtra("ateDataEvento", parseObject.getString("ateDataEvento"));
+                intent.putExtra("objectId", parseObject.getString("objectId"));
 
                 startActivity(intent);
 

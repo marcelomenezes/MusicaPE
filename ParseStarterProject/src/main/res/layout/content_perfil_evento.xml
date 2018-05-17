@@ -18,40 +18,64 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="140dp"
             android:layout_marginTop="50dp"
             android:id="@+id/imagem_evento"/>
 
         <TextView
+            android:layout_marginLeft="100dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:text="nome"
             android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
             android:layout_below="@+id/imagem_evento"
             android:id="@+id/text_nome_evento" />
 
         <TextView
+            android:layout_marginLeft="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_nome_evento"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp"
+            android:text="Data:"
             android:id="@+id/text_de_data_evento_view" />
+
+        <TextView
+            android:id="@+id/textview_detalhes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_de_data_evento_view"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:text="Detalhes:" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_de_data_evento_view"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/textview_detalhes"
             android:id="@+id/text_detalhes_evento" />
+
+        <TextView
+            android:id="@+id/textview_endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_detalhes_evento"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:text="Endereço:"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_detalhes_evento"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="30dp"
-            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/textview_endereco"
             android:id="@+id/text_endereco_evento"/>
 
 

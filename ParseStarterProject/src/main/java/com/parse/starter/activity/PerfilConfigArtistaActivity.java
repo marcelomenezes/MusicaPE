@@ -78,6 +78,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
 
 
+
         //configurar toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_config_artista);
         toolbar.setTitle(artistaNome);
@@ -126,13 +127,16 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
             }
         });
 
+        atualizaImagem();
+
+
+
+    }
+    public void atualizaImagem(){
         Picasso.with(this)
                 .load(imagemConfigUrl)
                 .fit()
                 .into(imagemConfig);
-
-
-
     }
 
     @Override
@@ -179,6 +183,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
                         if(e == null){ //sucesso
                             Toast.makeText(getApplicationContext(), "Sua imagem foi postada!", Toast.LENGTH_LONG).show();
+                            atualizaImagem();
                             /*
                             //atualizar a lista de novos eventos adicionados
                             TabsAdapter adapterNovo = (TabsAdapter) viewPager.getAdapter();

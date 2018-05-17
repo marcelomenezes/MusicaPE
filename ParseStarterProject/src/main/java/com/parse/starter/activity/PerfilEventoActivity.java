@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
@@ -22,6 +23,7 @@ import com.squareup.picasso.Picasso;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 public class PerfilEventoActivity extends AppCompatActivity {
 
@@ -33,12 +35,15 @@ public class PerfilEventoActivity extends AppCompatActivity {
     private String imagemEventoUrl;
     private String deDataEvento;
     private String nomeUser;
+    private String ateDataEvento;
+    private String objectId;
 
     private TextView nomeEventoText;
     private TextView detalhesEventoText;
     private TextView enderecoEventoText;
     private ImageView imagemEvento;
-    private  TextView deDataEventoText;
+    private TextView deDataEventoText;
+    private TextView ateDataEventoText;
 
     private Date date;
     private String deDataEventoFormatada;
@@ -46,6 +51,8 @@ public class PerfilEventoActivity extends AppCompatActivity {
     private String usuario;
 
     private ParseQuery<ParseObject> query;
+
+    private ParseObject parseEvento, eventoCarregado;
 
 
     @Override
@@ -61,6 +68,8 @@ public class PerfilEventoActivity extends AppCompatActivity {
         enderecoEvento = intent.getStringExtra("enderecoEvento");
         imagemEventoUrl = intent.getStringExtra("imagem");
         deDataEvento = intent.getStringExtra("deDataEvento");
+        ateDataEvento = intent.getStringExtra("ateDataEvento");
+        objectId = intent.getStringExtra("objectId");
 
 
 
@@ -98,6 +107,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
         enderecoEventoText = (TextView) findViewById(R.id.text_endereco_evento);
         imagemEvento = (ImageView) findViewById(R.id.imagem_evento);
         deDataEventoText = (TextView) findViewById(R.id.text_de_data_evento_view);
+        ateDataEventoText = (TextView) findViewById(R.id.text_ate_data_evento);
 
 
         //Associar Textview aos valores passados pelo itent
@@ -105,6 +115,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
         detalhesEventoText.setText(detalhesEvento);
         enderecoEventoText.setText(enderecoEvento);
         deDataEventoText.setText(deDataEvento);
+       // ateDataEventoText.setText(ateDataEvento);
 
         Picasso.with(this)
                 .load(imagemEventoUrl)
@@ -123,7 +134,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
         if( usuario.equals(nomeUser)) {
             MenuInflater inflater = getMenuInflater();
             inflater.inflate(R.menu.menu_evento, menu);
-        } 
+        }
 
         return  true;
     }
@@ -140,8 +151,37 @@ public class PerfilEventoActivity extends AppCompatActivity {
     }
 
     private void adicionarEvento(){
+/*
+        query = ParseQuery.getQuery("Evento");
+        query.whereEqualTo("objectId", objectId);
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> objects, ParseException e) {
+                if (e == null) {//sucesso
+                    if (objects.size() > 0) {
+                        for (ParseObject parseObject : objects) {
+                            eventoCarregado = parseObject;
+                        }
+                    }
+                } else {//erro
 
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        parseEvento = eventoCarregado;
+*/
         Intent intent = new Intent(this, PerfilConfigEventoActivity.class);
+
+/*
+        intent.putExtra("nomeEvento", parseEvento.getString("nomeEvento"));
+        intent.putExtra("detalhesEvento", parseEvento.getString("detalhesEvento"));
+        intent.putExtra("enderecoEvento", parseEvento.getString("enderecoEvento"));
+        intent.putExtra("deDataEvento", parseEvento.getString("deDataEvento"));
+        intent.putExtra("ateDataEvento", parseEvento.getString("ateDataEvento"));
+        intent.putExtra("imagem", parseEvento.getParseFile("imagem").getUrl());
+*/
         startActivity(intent);
     }
 
