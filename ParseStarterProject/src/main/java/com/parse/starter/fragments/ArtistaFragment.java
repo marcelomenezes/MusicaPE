@@ -51,10 +51,10 @@ public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRe
     private SwipeRefreshLayout swipeRefreshLayout;
 
 
-    String[] arrayRitmo = new String[]{"baião", "brega-romântico", "brega-pop", "brega-funk", "ciranda",
-                                        "coco", "cavalo-marinho", "forró", "frevo", "maracatu", "caboclinho",
-                                        "xaxado", "manguebeat", "rap", "sertanejo", "rock", "samba",
-                                        "pop"};
+    String[] arrayRitmo = new String[]{"Baião", "Brega-romântico", "Brega-pop", "Brega-funk", "Ciranda",
+                                        "Coco", "Cavalo-marinho", "Forró", "Frevo", "Maracatu", "Caboclinho",
+                                        "Xaxado", "Manguebeat", "Rap", "Sertanejo", "Rock", "Samba",
+                                        "Pop", "Metal"};
 
 
 

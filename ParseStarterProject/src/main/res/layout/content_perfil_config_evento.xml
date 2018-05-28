@@ -39,7 +39,6 @@
             android:inputType="date"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="1dp"
-            android:focusableInTouchMode="false"
             android:hint="De: dd/mm/aaaa" />
 
         <EditText

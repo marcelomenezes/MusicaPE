@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_links"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="20dp"
-    android:id="@+id/scroll_links">
+    android:layout_marginTop="20dp">
 
     <RelativeLayout
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -17,8 +17,8 @@
         <ImageView
             android:id="@+id/imagem_perfil_config"
             android:layout_width="150dp"
-            android:layout_alignParentTop="true"
             android:layout_height="150dp"
+            android:layout_alignParentTop="true"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="50dp" />
 
@@ -44,31 +44,31 @@
             android:text="Cidade:"/>
 
         <EditText
-            android:hint="Cidade Natal"
             android:id="@+id/text_config_cidade_perfil"
             android:layout_width="320sp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textview_cidade_config"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="1dp" />
+            android:layout_marginTop="1dp"
+            android:hint="Cidade Natal" />
 
         <TextView
             android:id="@+id/textview_introducao_config"
-            android:layout_below="@+id/text_config_cidade_perfil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/text_config_cidade_perfil"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Biografia:" />
 
         <EditText
-            android:hint="Biografia"
             android:id="@+id/text_config_introducao_perfil"
-            android:layout_height="wrap_content"
             android:layout_width="320sp"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/textview_introducao_config"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="1dp"/>
+            android:layout_marginTop="1dp"
+            android:hint="Biografia"/>
 
         <TextView
             android:id="@+id/lista_ritmos"
@@ -89,13 +89,13 @@
             android:hint="Busque Ritmos" />
         
         <Button
-            android:text="Salvar Alteração"
+            android:id="@+id/botao_salvar_alteracao"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_config_ritmos_artista"
-            android:id="@+id/botao_salvar_alteracao"
+            android:layout_marginLeft="120dp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="120dp" />
+            android:text="Salvar Alteração" />
 
     </RelativeLayout>
 </ScrollView>
