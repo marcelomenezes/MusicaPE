@@ -8,6 +8,7 @@ MERGED from [com.android.support:design:27.0.2] /Users/marcelomenezes/.gradle/ca
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/beebf4125fd6e3e71e8d8b987f7910f2/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d2ffd8e85d2d05e34a421c88241ef2cb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/225f08e887ba010154d9677f4f25df0e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/aac8ccd04fef1cebf7ef9f4cdbaa1ca0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46bc5154a7a964e0b7da62c5f6109bdb/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0ffb2ea2d58108f56bed126714b7db3d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/13ea86e5808e0499836058f2130c6fa4/AndroidManifest.xml:17:1-22:12
@@ -62,6 +63,8 @@ ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProj
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:20:22-76
 application
 ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:22:5-91:19
+MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/aac8ccd04fef1cebf7ef9f4cdbaa1ca0/AndroidManifest.xml:11:5-20
+MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/aac8ccd04fef1cebf7ef9f4cdbaa1ca0/AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:26:9-41
 	android:icon
@@ -176,6 +179,8 @@ MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradl
 MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d2ffd8e85d2d05e34a421c88241ef2cb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/225f08e887ba010154d9677f4f25df0e/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/225f08e887ba010154d9677f4f25df0e/AndroidManifest.xml:20:5-44
+MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/aac8ccd04fef1cebf7ef9f4cdbaa1ca0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/aac8ccd04fef1cebf7ef9f4cdbaa1ca0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46bc5154a7a964e0b7da62c5f6109bdb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/46bc5154a7a964e0b7da62c5f6109bdb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/0ffb2ea2d58108f56bed126714b7db3d/AndroidManifest.xml:20:5-44

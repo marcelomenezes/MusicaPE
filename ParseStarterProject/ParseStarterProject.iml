@@ -117,6 +117,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: com.android.support:transition-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-v4-27.0.2" level="project" />
+    <orderEntry type="library" name="Gradle: com.splitwise:tokenautocomplete-2.0.8" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-fragment-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable-27.0.2" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-compat-27.0.2" level="project" />

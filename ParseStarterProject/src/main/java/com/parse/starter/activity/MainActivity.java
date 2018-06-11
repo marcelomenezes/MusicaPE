@@ -131,8 +131,7 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
         searchView.setOnQueryTextListener(this);
         searchView.setQueryHint(getString(R.string.hintBusca));
 
-        MenuItem filtro = menu.findItem(R.id.action_filtrar_ritmo);
-        SearchView searchViewFiltro = (SearchView) MenuItemCompat.getActionView(filtro);
+
         //searchView.setOnClickListener(this);
 
 
@@ -178,12 +177,24 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     private void configurarPerfil(){
         ParseObject parseObject = ParseUser.getCurrentUser();
 
-        Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
-        intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
-        intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
-        intent.putExtra("cidade", parseObject.getString("cidade"));
-        intent.putExtra("introducao", parseObject.getString("introducao"));
-        startActivity(intent);
+        if (parseObject.getString("flagArtista") == "NO"){
+            Intent intent = new Intent(this, PerfilConfigUsuarioActivity.class);
+            intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+            intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+            intent.putExtra("cidade", parseObject.getString("cidade"));
+            intent.putExtra("introducao", parseObject.getString("introducao"));
+            intent.putExtra("ritmos", parseObject.getString("ritmos"));
+            startActivity(intent);
+        }else {
+
+            Intent intent = new Intent(this, PerfilConfigArtistaActivity.class);
+            intent.putExtra("imagem", parseObject.getParseFile("imagem").getUrl());
+            intent.putExtra("nomeArtista", parseObject.getString("nomeArtista"));
+            intent.putExtra("cidade", parseObject.getString("cidade"));
+            intent.putExtra("introducao", parseObject.getString("introducao"));
+            intent.putExtra("ritmos", parseObject.getString("ritmos"));
+            startActivity(intent);
+        }
     }
 
     @Override

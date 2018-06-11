@@ -5,5 +5,6 @@
     <color name="cinzaEscuro">#5c5c5c</color>
     <color name="cinza">#F3F3F3</color>
     <color name="preta">#000001</color>
+    <color name="azulClaro">#ccccff</color>
 
 </resources>

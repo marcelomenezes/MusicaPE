@@ -50,7 +50,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/textview_cidade_config"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="1dp" />
+            android:layout_marginTop="1dp"
+            android:inputType="textCapWords"/>
 
         <TextView
             android:id="@+id/textview_introducao_config"
@@ -68,7 +69,8 @@
             android:layout_width="320sp"
             android:layout_below="@+id/textview_introducao_config"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="1dp"/>
+            android:layout_marginTop="1dp"
+            android:inputType="textCapWords"/>
 
         <TextView
             android:id="@+id/lista_ritmos"
@@ -79,14 +81,18 @@
             android:layout_marginTop="10dp"
             android:text="Ritmos:" />
 
-        <EditText
+        <info.devexchanges.chipedittext.ContactsCompletionView
+            android:hint="Busque Ritmos"
+            android:imeOptions="actionDone"
+            android:inputType="text|textNoSuggestions|textMultiLine"
+            android:nextFocusDown="@+id/editText"
             android:id="@+id/text_config_ritmos_artista"
             android:layout_width="320sp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/lista_ritmos"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="1dp"
-            android:hint="Busque Ritmos" />
+            android:textSize="19sp"/>
         
         <Button
             android:text="Salvar Alteração"

@@ -2,11 +2,18 @@ package com.parse.starter.activity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.TextWatcher;
+import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -47,6 +54,10 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
     private ImageView imagemConfig;
 
 
+    private EditText ritmosConfigText;
+    private String ritmosLista;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,6 +68,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         cidadeNomeEditText = (EditText) findViewById(R.id.text_config_cidade_perfil);
         introducaoEditText = (EditText) findViewById(R.id.text_config_introducao_perfil);
         botaoSalvarAlteracao = (Button) findViewById(R.id.botao_salvar_alteracao);
+
+        ritmosConfigText = findViewById(R.id.text_config_ritmos_artista);
 
 
         botaoTrocarImagem.setOnClickListener(new View.OnClickListener() {
@@ -75,7 +88,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         cidadeNome = intent.getStringExtra("cidade");
         introducao = intent.getStringExtra("introducao");
         imagemConfigUrl = intent.getStringExtra("imagem");
-
+        ritmosLista = intent.getStringExtra("ritmos");
 
 
 
@@ -91,6 +104,57 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         //associando o textview aos valores passados pelo intent
         cidadeNomeEditText.setText(cidadeNome);
         introducaoEditText.setText(introducao);
+        ritmosConfigText.setText(ritmosLista);
+
+
+        ritmosConfigText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                Spannable spannable = ritmosConfigText.getText();
+
+
+
+                for (int i =0; i < s.length(); i++) {
+                    if (s.charAt(i) == ' ') {
+                        ritmosConfigText.setBackgroundColor(Color.parseColor("#FFFFFF"));
+                    }else {
+                        ritmosConfigText.setBackgroundColor(Color.parseColor("#CCCCFF"));
+                    }
+
+                }
+                /*
+                if(s.length() != 0) {
+                    //ritmosConfigText.setTextColor(Color.parseColor("#CCCCFF"));
+
+                    ritmosConfigText.setBackgroundColor(Color.parseColor("#CCCCFF"));
+                    ForegroundColorSpan fcs = new ForegroundColorSpan( Color.GREEN);
+                    String s1 = s.toString();
+                    int in=0; // start searching from 0 index
+
+            // keeps on searching unless there is no more function string found
+                    while ((in = s1.indexOf(ritmosLista,in)) >= 0) {
+                        spannable.setSpan(
+                                fcs,
+                                in,
+                                in + ritmosLista.length(),
+                                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                        // update the index for next search with length
+                        in += ritmosLista.length();
+                    }
+                }
+                */
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
 
 
         botaoSalvarAlteracao.setOnClickListener(new View.OnClickListener() {
@@ -103,6 +167,7 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
                 ParseObject usuarioLogado = ParseUser.getCurrentUser();
                 usuarioLogado.put("cidade", cidadeNomeAlterada);
                 usuarioLogado.put("introducao", introducaoAlterada);
+                usuarioLogado.put("ritmos", ritmosLista);
 
                 usuarioLogado.saveInBackground(new SaveCallback() {
                     @Override
@@ -138,6 +203,10 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
                 .fit()
                 .into(imagemConfig);
     }
+
+
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

@@ -10,7 +10,7 @@
     <include layout="@layout/toolbar"
         android:id="@+id/toolbar_perfil_config_artista"/>
 
-    <include layout="@layout/content_perfil_config_artista" />
+    <include layout="@layout/content_perfil_config_usuario" />
 
 
 </android.support.design.widget.CoordinatorLayout>

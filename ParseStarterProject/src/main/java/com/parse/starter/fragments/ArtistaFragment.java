@@ -181,6 +181,7 @@ public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRe
     public List<ParseObject> getArtistasCarregados(){
 
         query = ParseUser.getQuery();
+        query.whereNotEqualTo("flagArtista", "NO");
         recuperarArtistas = new ArrayList<>();
         carregarArtistas = new ArrayList<>();
 
@@ -214,17 +215,28 @@ public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRe
         } else {
             getArtistasCarregados();
             List<ParseObject> artistasencontrados = new ArrayList<>(carregarArtistas);
+            List<ParseObject> ritmosEncontrados = new ArrayList<>(carregarArtistas);
 
             if (artistasencontrados.size() > 0) {
                 for (int i = artistasencontrados.size() - 1; i >= 0; i--) {
                     //for (int i =  3; i >= 0; i--) {
                     ParseObject parseObject = artistasencontrados.get(i);
-                    if (!parseObject.getString("nomeArtista").toString().toUpperCase().contains(s.toUpperCase())) {
+                    if (!parseObject.getString("ritmos").toString().toUpperCase().contains(s.toUpperCase()))
+                    {
                         artistasencontrados.remove(parseObject);
                     }
-                }
-                artistasFiltrados = artistasencontrados;
+                    ParseObject parseObject1 = ritmosEncontrados.get(i);
+                    if (!parseObject1.getString("nomeArtista").toString().toUpperCase().contains(s.toUpperCase())) {
+                        ritmosEncontrados.remove(parseObject);
+                    }
 
+                }
+                carregado = new ArrayList<>();
+                carregado.addAll(artistasencontrados);
+                carregado.addAll(ritmosEncontrados);
+                //artistasFiltrados.addAll(artistasencontrados);
+               // artistasFiltrados.addAll(ritmosEncontrados);
+                artistasFiltrados = carregado;
             } else {
 
             }

@@ -41,7 +41,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:focusableInTouchMode="true"
-            android:text="Cidade:"/>
+            android:text="Cidade:" />
 
         <EditText
             android:id="@+id/text_config_cidade_perfil"
@@ -59,7 +59,7 @@
             android:layout_below="@+id/text_config_cidade_perfil"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Biografia:" />
+            android:text="Bairro:" />
 
         <EditText
             android:id="@+id/text_config_introducao_perfil"
@@ -68,7 +68,7 @@
             android:layout_below="@+id/textview_introducao_config"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="1dp"
-            android:hint="Biografia"/>
+            android:hint="Bairro" />
 
         <TextView
             android:id="@+id/lista_ritmos"
@@ -77,7 +77,7 @@
             android:layout_below="@+id/text_config_introducao_perfil"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:text="Ritmos:" />
+            android:text="Ritmos de interesse:" />
 
         <EditText
             android:id="@+id/text_config_ritmos_artista"
@@ -86,7 +86,7 @@
             android:layout_below="@+id/lista_ritmos"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="1dp"
-            android:hint="Busque Ritmos" />
+            android:hint="Adicione Ritmos" />
         
         <Button
             android:id="@+id/botao_salvar_alteracao"

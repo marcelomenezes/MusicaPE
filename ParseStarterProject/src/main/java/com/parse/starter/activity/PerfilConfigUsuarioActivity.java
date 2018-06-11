@@ -50,7 +50,7 @@ public class PerfilConfigUsuarioActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil_config_artista);
+        setContentView(R.layout.activity_perfil_config_usuario);
 
         botaoTrocarImagem = (Button) findViewById(R.id.botao_trocar_imagem);
         imagemConfig = (ImageView) findViewById(R.id.imagem_perfil_config);
