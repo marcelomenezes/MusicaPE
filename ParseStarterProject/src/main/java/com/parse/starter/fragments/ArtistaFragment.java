@@ -233,10 +233,19 @@ public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRe
                 }
                 carregado = new ArrayList<>();
                 carregado.addAll(artistasencontrados);
+                if (ritmosEncontrados.size() > 0 && artistasencontrados.size() > 0) {
+                    for (int i = ritmosEncontrados.size() - 1; i >= 0; i--) {
+                        for (int j = artistasencontrados.size() - 1; i >= 0; i--) {
+                            if (ritmosEncontrados.get(i).equals(artistasencontrados.get(j))) {
+                             ritmosEncontrados.remove(i);
+                            }
+                        }
+                    }
+                }
                 carregado.addAll(ritmosEncontrados);
-                //artistasFiltrados.addAll(artistasencontrados);
-               // artistasFiltrados.addAll(ritmosEncontrados);
+
                 artistasFiltrados = carregado;
+
             } else {
 
             }
