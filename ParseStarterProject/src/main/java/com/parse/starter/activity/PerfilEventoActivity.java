@@ -46,7 +46,8 @@ public class PerfilEventoActivity extends AppCompatActivity {
     private TextView ateDataEventoText;
 
     private Date date;
-    private String deDataEventoFormatada;
+
+    private String deDataEventoFormatada, ateDataEventoFormatada;
 
     private String usuario;
 
@@ -54,11 +55,17 @@ public class PerfilEventoActivity extends AppCompatActivity {
 
     private ParseObject parseEvento, eventoCarregado;
 
+    private SimpleDateFormat formato;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_evento);
+
+        formato = new SimpleDateFormat("dd/MM/yyyy");
 
         //Recupera valores enviados do EventoFragment
         Intent intent = getIntent();
@@ -73,21 +80,28 @@ public class PerfilEventoActivity extends AppCompatActivity {
 
 
 
-        /*
-        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
+        //String.format(deDataEvento, formato);
+
+
+
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+            date = new Date();
+/*
         try{
             date = dateFormat.parse(deDataEvento);
+            deDataEventoText.setText(dateFormat.format(date));
         } catch (java.text.ParseException e){
             e.printStackTrace();
         }
-
+        /*
         try {
             deDataEvento = dateFormat.format(date);
         } catch (android.net.ParseException e){
             e.printStackTrace();
         }
-         */
+        */
         //configurar toolbar
         toolbar = (Toolbar) findViewById(R.id.toolbar_perfil_evento);
         toolbar.setTitle(nomeEvento);
@@ -107,7 +121,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
         enderecoEventoText = (TextView) findViewById(R.id.text_endereco_evento);
         imagemEvento = (ImageView) findViewById(R.id.imagem_evento);
         deDataEventoText = (TextView) findViewById(R.id.text_de_data_evento_view);
-        ateDataEventoText = (TextView) findViewById(R.id.text_ate_data_evento);
+        ateDataEventoText = (TextView) findViewById(R.id.text_ate_data_evento_view);
 
 
         //Associar Textview aos valores passados pelo itent
@@ -115,7 +129,8 @@ public class PerfilEventoActivity extends AppCompatActivity {
         detalhesEventoText.setText(detalhesEvento);
         enderecoEventoText.setText(enderecoEvento);
         deDataEventoText.setText(deDataEvento);
-       // ateDataEventoText.setText(ateDataEvento);
+        //deDataEventoText.setText(dateFormat.format(date));
+        ateDataEventoText.setText(ateDataEvento);
 
         Picasso.with(this)
                 .load(imagemEventoUrl)

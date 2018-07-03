@@ -36,6 +36,7 @@
             android:layout_below="@+id/text_data_id"
             android:layout_height="wrap_content"
             android:id="@+id/text_de_data_evento"
+            android:focusableInTouchMode="false"
             android:inputType="date"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="1dp"

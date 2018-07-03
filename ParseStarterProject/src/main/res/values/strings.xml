@@ -45,5 +45,31 @@
 
     <string name="action_configurar_evento">Configurar este Evento</string>
     
+    
+    <string-array name="ritmos">
+        <item>Baião</item>
+        <item>Brega-romântico</item>
+        <item>Brega-pop</item>
+        <item>Brega-funk</item>
+        <item>Ciranda</item>
+        <item>Coco</item>
+        <item>Cavalo-marinho</item>
+        <item>Forró</item>
+        <item>Caboclinho</item>
+        <item>Xaxado</item>
+        <item>Maracatu</item>
+        <item>Xaxado</item>
+        <item>Manguebeat</item>
+        <item>Rap</item>
+        <item>Sertanejo</item>
+        <item>Rock</item>
+        <item>Samba</item>
+        <item>Pop</item>
+        <item>Metal</item>
+        <item>Reggae</item>
+        <item>Folk</item>
+        <item>MPB</item>
+        <item>MPP</item>
+    </string-array>
 
 </resources>

@@ -1,6 +1,7 @@
 package com.parse.starter.activity;
 
 import android.app.DatePickerDialog;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -19,6 +20,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -99,7 +101,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_perfil_config_evento);
 
-        dataFormato = new SimpleDateFormat("dd-mm-yyyy");
+        dataFormato = new SimpleDateFormat("dd/MM/yyyy hh:mm a");
         deDataEventoSalvaText = (EditText) findViewById(R.id.text_de_data_evento);
         ateDataEventoSalvaText = (EditText) findViewById(R.id.text_ate_data_evento);
 
@@ -182,13 +184,25 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         deDataEventoSalvaText.setOnClickListener(this);
         ateDataEventoSalvaText.setOnClickListener(this);
 
-        Calendar newCalendar = Calendar.getInstance();
-        deDataEventoDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
 
+
+        final Calendar newCalendar = Calendar.getInstance();
+
+
+        deDataEventoDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
+            @Override
             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                Calendar newDate = Calendar.getInstance();
+                final Calendar newDate = Calendar.getInstance();
                 newDate.set(year, monthOfYear, dayOfMonth);
-                deDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+                new TimePickerDialog(PerfilConfigEventoActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int h, int min) {
+                        newDate.set(Calendar.HOUR_OF_DAY, h);
+                        newDate.set(Calendar.MINUTE, min);
+                        deDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+                    }
+                }, newCalendar.get(Calendar.HOUR_OF_DAY),
+                        newCalendar.get(Calendar.MINUTE), true).show();
             }
 
         },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));

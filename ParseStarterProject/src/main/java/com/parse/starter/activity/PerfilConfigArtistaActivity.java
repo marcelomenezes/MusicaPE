@@ -14,10 +14,13 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextWatcher;
 import android.text.style.ForegroundColorSpan;
+import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.MultiAutoCompleteTextView;
 import android.widget.Toast;
 
 import com.parse.ParseException;
@@ -32,6 +35,9 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+
+import android.support.v7.widget.AppCompatAutoCompleteTextView;
 
 public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
@@ -57,6 +63,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
     private EditText ritmosConfigText;
     private String ritmosLista;
 
+    ChipsMultiAutoCompleteTextview mu;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +78,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         botaoSalvarAlteracao = (Button) findViewById(R.id.botao_salvar_alteracao);
 
         ritmosConfigText = findViewById(R.id.text_config_ritmos_artista);
+
+        //ritmosConfigText = (ChipsMultiAutoCompleteTextview) findViewById(R.id.multiAutoCompleteTextView1);
 
 
         botaoTrocarImagem.setOnClickListener(new View.OnClickListener() {
@@ -107,6 +117,16 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
         ritmosConfigText.setText(ritmosLista);
 
 
+       // mu = (ChipsMultiAutoCompleteTextview) findViewById(R.id.multiAutoCompleteTextView1);
+
+//        String[] item = getResources().getStringArray(R.array.ritmos);
+
+  //      Log.i("", "Country Count : " + item.length);
+    //    mu.setAdapter(new ArrayAdapter(this,
+      //          android.R.layout.simple_dropdown_item_1line, item));
+        //mu.setTokenizer(new MultiAutoCompleteTextView.CommaTokenizer());
+
+
         ritmosConfigText.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -115,6 +135,8 @@ public class PerfilConfigArtistaActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+
                 Spannable spannable = ritmosConfigText.getText();
 
 

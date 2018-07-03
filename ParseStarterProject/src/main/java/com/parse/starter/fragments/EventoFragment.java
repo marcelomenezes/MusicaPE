@@ -90,6 +90,7 @@ public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRef
                 intent.putExtra("ateDataEvento", parseObject.getString("ateDataEvento"));
 
 
+
                 startActivity(intent);
 
             }

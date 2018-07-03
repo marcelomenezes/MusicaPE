@@ -19,6 +19,16 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission android:name="com.parse.starter.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.parse.starter.permission.C2D_MESSAGE" />
+
     <application
         android:name=".StarterApplication"
         android:allowBackup="true"
@@ -43,6 +53,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data android:name="com.parse.push.gcm_sender_id"
+            android:value="id:AIzaSyBDs0A8jC7d5cHB3zngdqC5zkcNpTo_Nc0" />
+        <service android:name="com.parse.PushService" />
+        <receiver android:name="com.parse.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.parse.starter" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.parse.ParsePushBroadcastReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>
+
         <activity android:name=".activity.MainActivity" />
         <activity android:name=".activity.CadastroActivity" />
         <activity
@@ -89,5 +118,7 @@
                 android:value="com.parse.starter.activity.MainActivity" />
         </activity>
     </application>
+
+
 
 </manifest>

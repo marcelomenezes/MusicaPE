@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "996565340640",
+    "firebase_url": "https://musica-pe081.firebaseio.com",
+    "project_id": "musica-pe081",
+    "storage_bucket": "musica-pe081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996565340640:android:496897f7b68def35",
+        "android_client_info": {
+          "package_name": "com.parse.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996565340640-3d22362ffd3av4uojctdkevvrhnoelld.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "996565340640-3d22362ffd3av4uojctdkevvrhnoelld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpBF1OyLPSdn5s3ZCVeQijjqlEEz2_Sds"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
