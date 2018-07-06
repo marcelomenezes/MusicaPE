@@ -210,9 +210,17 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         ateDataEventoDialog = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
 
             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                Calendar newDate = Calendar.getInstance();
+               final Calendar newDate = Calendar.getInstance();
                 newDate.set(year, monthOfYear, dayOfMonth);
-                ateDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+                new TimePickerDialog(PerfilConfigEventoActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int h, int min) {
+                        newDate.set(Calendar.HOUR_OF_DAY, h);
+                        newDate.set(Calendar.MINUTE, min);
+                        ateDataEventoSalvaText.setText(dataFormato.format(newDate.getTime()));
+                    }
+                }, newCalendar.get(Calendar.HOUR_OF_DAY),
+                        newCalendar.get(Calendar.MINUTE), true).show();
             }
 
         },newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));

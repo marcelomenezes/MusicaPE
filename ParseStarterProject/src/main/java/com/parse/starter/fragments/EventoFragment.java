@@ -114,7 +114,8 @@ public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRef
         //Recupera imagens das postagens
         query = ParseQuery.getQuery("Evento");
         //query.whereEqualTo("username", ParseUser.getCurrentUser().getUsername());
-        query.orderByDescending("createdAt");
+        //query.orderByDescending("ateDataEvento");
+        query.orderByAscending("deDataEvento");
 
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
