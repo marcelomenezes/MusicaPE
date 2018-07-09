@@ -44,8 +44,8 @@
 
 
     <string name="action_configurar_evento">Configurar este Evento</string>
-    
-    
+
+
     <string-array name="ritmos">
         <item>Baião</item>
         <item>Brega-romântico</item>

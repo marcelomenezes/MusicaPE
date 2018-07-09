@@ -13,6 +13,7 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
@@ -23,6 +24,11 @@ import android.widget.ListView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.android.gms.common.api.Status;
+import com.google.android.gms.location.places.Place;
+import com.google.android.gms.location.places.ui.PlaceAutocompleteFragment;
+import com.google.android.gms.location.places.ui.PlaceSelectionListener;
+import com.google.android.gms.maps.model.LatLng;
 import com.parse.ParseException;
 import com.parse.ParseFile;
 import com.parse.ParseObject;
@@ -37,6 +43,7 @@ import com.squareup.picasso.Picasso;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -58,10 +65,13 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
 
     private String nomeEvento;
     private String detalhesEvento;
+
     private String enderecoEvento;
 
     private String deDataEvento;
     private String ateDataEvento;
+
+    private String latLng;
 
     private ParseObject imagemPassada;
 
@@ -87,11 +97,29 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
     //valoes do intent
     private String nomeEventoIntent;
     private String detalhesEventoIntent;
+
     private String enderecoEventoIntent;
+
     private String deDataEventoIntent;
     private String ateDataEventoIntent;
     private String imagemEventoIntent;
 
+
+    public static final String TAG = MapaEventosActivity.class.getSimpleName();
+
+    private CharSequence salva;
+
+    private LatLng novo;
+    //private LatLng latLng;
+    private LatLng geo;
+
+    private Double l1;
+    private Double l2;
+    private String coordl1;
+    private String coordl2;
+
+    private String latitude;
+    private String longitude;
 
 
 
@@ -110,7 +138,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
 
         nomeEventoEditText = (EditText) findViewById(R.id.text_config_nome_evento);
         detalhesEventoEditText = (EditText) findViewById(R.id.text_config_introducao_evento);
-        enderecoEventoEditText = (EditText) findViewById(R.id.endereco_config_evento);
+        //enderecoEventoEditText = (EditText) findViewById(R.id.endereco_config_evento);
 
         imagemEventoConfig = (ImageView) findViewById(R.id.imagem_evento_config);
 
@@ -136,7 +164,7 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         //setar valores passados por um evento já criado
         nomeEventoEditText.setText(nomeEventoIntent);
         detalhesEventoEditText.setText(detalhesEventoIntent);
-        enderecoEventoEditText.setText(enderecoEventoIntent);
+        //enderecoEventoEditText.setText(enderecoEventoIntent);
         deDataEventoSalvaText.setText(deDataEventoIntent);
         ateDataEventoSalvaText.setText(ateDataEventoIntent);
 
@@ -176,6 +204,36 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
         //associando o textview aos valores passados pelo intent
         //nomeEventoEditText.setText(nomeEvento);
         //detalhesEventoEditText.setText(detalhesEvento);
+
+
+        PlaceAutocompleteFragment autocompleteFragment = (PlaceAutocompleteFragment)
+                getFragmentManager().findFragmentById(R.id.endereco_config_evento);
+
+
+        autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(Place place) {
+                // TODO: Get info about the selected place.
+                Log.i(TAG, "Place: " + place.getName());
+                Log.i(TAG, "Place: " + place.getAddress());
+                Log.i(TAG, "Place: " + place.getLatLng());
+                Log.i(TAG, "Place: " + place.getLocale());
+                Log.i(TAG, "Place: " + place.getAttributions());
+                novo = place.getLatLng();
+                salva = place.getAddress();
+                l1 = novo.latitude;
+                l2 = novo.longitude;
+                coordl1 = l1.toString();
+                coordl2 = l2.toString();
+            }
+
+            @Override
+            public void onError(Status status) {
+                // TODO: Handle the error.
+                Log.i(TAG, "An error occurred: " + status);
+            }
+        });
+
 
 
     }
@@ -281,9 +339,13 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
 
                         nomeEvento = nomeEventoEditText.getText().toString();
                         detalhesEvento = detalhesEventoEditText.getText().toString();
-                        enderecoEvento = enderecoEventoEditText.getText().toString();
+                        enderecoEvento = salva.toString();
+                        //enderecoEvento = enderecoEventoEditText.getText().toString();
                         deDataEvento = deDataEventoSalvaText.getText().toString();
                         ateDataEvento = ateDataEventoSalvaText.getText().toString();
+                        latLng = novo.toString();
+                        latitude = coordl1;
+                        longitude = coordl2;
 
 
                         try {
@@ -299,6 +361,11 @@ public class PerfilConfigEventoActivity extends AppCompatActivity implements Vie
                         parseEvento.put("enderecoEvento", enderecoEvento);
                         parseEvento.put("deDataEvento", dataEvento);
                         parseEvento.put("ateDataEvento", ateDataEvento);
+                        parseEvento.put("latLng", latLng);
+                        parseEvento.put("latitude", latitude);
+                        parseEvento.put("longitude", longitude);
+
+
 
 
                         //salvar os dados

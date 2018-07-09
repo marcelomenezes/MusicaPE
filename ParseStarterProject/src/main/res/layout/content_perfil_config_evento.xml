@@ -98,14 +98,15 @@
             android:layout_marginTop="10dp"
             android:text="Endereço:" />
 
-        <EditText
+        <fragment
             android:hint="Endereço"
             android:id="@+id/endereco_config_evento"
             android:layout_width="320sp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textview_endereco_config"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="1dp" />
+            android:layout_marginTop="1dp"
+            android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"/>
 
         <Button
             android:text="Salvar Evento"

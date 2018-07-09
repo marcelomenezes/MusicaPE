@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
@@ -30,8 +30,11 @@ dependencies {
     implementation 'com.android.support:recyclerview-v7:26.0.0-alpha1'
     implementation "com.splitwise:tokenautocomplete:2.0.8@aar"
 
-    implementation 'com.google.firebase:firebase-core:10.0.1'
-    implementation 'com.google.firebase:firebase-messaging:10.0.1'
+    implementation 'com.google.firebase:firebase-core:11.2.0'
+    implementation 'com.google.firebase:firebase-messaging:11.2.0'
 
+
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+
+    implementation 'com.google.android.gms:play-services:11.2.0'
 }
-

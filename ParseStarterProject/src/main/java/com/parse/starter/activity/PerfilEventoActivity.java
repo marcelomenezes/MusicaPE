@@ -69,7 +69,7 @@ public class PerfilEventoActivity extends AppCompatActivity {
 
         //Recupera valores enviados do EventoFragment
         Intent intent = getIntent();
-        nomeUser = intent.getStringExtra("nomeUsuario");
+        nomeUser = intent.getStringExtra("nomeArtista");
         nomeEvento = intent.getStringExtra("nomeEvento");
         detalhesEvento = intent.getStringExtra("detalhesEvento");
         enderecoEvento = intent.getStringExtra("enderecoEvento");

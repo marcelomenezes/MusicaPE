@@ -1,72 +1,152 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-10.0.1.aar/9b3f97887f0cf8f86252ec6934438aaf/AndroidManifest.xml:2:1-6:12
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
 MERGED from [com.android.support:design:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4302556eeb63ec48c6cbce8f512c54e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-11.2.0.aar/bae02ba9e2c678f2c2619ef5041a18b4/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.2.0.aar/c06b6772c6714cc112dc8db740e31c5b/AndroidManifest.xml:16:1-19:12
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/2b9b46587a19195f19f5f479c9406096/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/355c3b23b4ea579661954eb6c6a1a9cb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:16:1-30:12
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:16:1-34:12
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:16:1-29:12
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:16:1-51:12
-MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/6d0986f4b1090b0130619c5776762481/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:16:1-23:12
+MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-core:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c91d5b144fbeddcf9ddab8c1fad48a58/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-tagmanager:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.2.0.aar/57c0410182853304a6d8e4f600397b77/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:16:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:16:1-35:12
+MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-config-11.2.0.aar/aea698bdf45c1645e1664bcbda887894/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:16:1-29:12
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.2.0.aar/514e5bf1bd272a38328c6854e05e1299/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-database:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-11.2.0.aar/dbdf25160726849594d8743804f239a5/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.2.0.aar/6469303f38c0b4983907525b5568bd10/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/b8983b29cca89050dc62924f934372ad/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-storage:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.2.0.aar/3341917fbd2aad16ee393f99112f3b79/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.2.0.aar/6757e90d91c001911299b4e3bc73a726/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.2.0.aar/176634b88606798dcc820085cc03da8a/AndroidManifest.xml:16:1-18:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.2.0.aar/e9518dda1c74d4d03bee2a0b969fb502/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.2.0.aar/460ab6cb902f298271e2176a0739c5e5/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.2.0.aar/acbd5c025e0a62956b23eee78fc33136/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.2.0.aar/3a777ca1fe339c57c6fd6aac620b8ca1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-games-11.2.0.aar/4fddde82049becc979b2925d1977f7e2/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.2.0.aar/a627834e621dd0def01b19c2d07f8d08/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.2.0.aar/cf334b4f9fe94c3d25f6123eae01e0b0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.2.0.aar/76bc310de053e130eedd147b784c88cb/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-wallet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.2.0.aar/6d16c58a752d3b15987c4f80de2ae68e/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.2.0.aar/5609d8ddebd67355d0d176ed42615b22/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-instantapps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.2.0.aar/b9833e1229c8c25e0003aa178d5e2464/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-location-11.2.0.aar/c8cf089dd3be3d0735a884d0b6da2557/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-places-11.2.0.aar/99dc520cb512ffb4020d2a86d1cecff4/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.2.0.aar/bb6c66fe3091e1547f75e663debcb550/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.2.0.aar/dacb6cc5e39d3700af53861bec4cbeae/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.2.0.aar/7d05e34c4e67b6e70336f9d8faa3c79f/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.2.0.aar/2ac2e806e24cd84c4eb4db5ac014c351/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.2.0.aar/34cf201774559c71ee95a4f1e694aa53/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.2.0.aar/36949271d78159d67e64d7685135a7f0/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.2.0.aar/fb7421def859ebae27fc617338cf8a79/AndroidManifest.xml:2:1-4:12
+MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.2.0.aar/4ea7ade4f9e31d4675c15e7bf5e64c82/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/bc30f39210adabf121a44d0d7b4f15fe/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b1822a9d40294ddc1982eb8fdf2636e5/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/807eb3afa8d13062663714fb35b5fef1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/26e9763323897e6ce5d435f724e9f20f/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a318746aeab787e94e47d874e9a3d10b/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:transition:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/4b2bf1fc6267c41f7f6d31d34aa45d46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d385115169cd7952be33f7e75e32ca32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/68ba2aa37f2635453bf1b98dedeeb2df/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9e3f2055956652ec879bd55656462659/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f9aebded1e5bc6eda04df201090de63a/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
-INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
+INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
 	package
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-124:12
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:1-137:12
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
 uses-feature#0x00020000
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:12:5-14:34
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:12:5-14:35
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:21:5-77
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:21:5-77
 	android:glEsVersion
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:13:9-41
 	android:required
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:14:9-32
 uses-permission#android.permission.INTERNET
 ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:16:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:16:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:17:5-79
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:19:5-78
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:4:5-78
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:17:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -78,271 +158,467 @@ ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProj
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:19:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:20:5-78
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:20:5-79
 	android:name
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:20:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:22:5-68
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:21:5-67
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:21:5-67
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:21:5-68
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:22:22-65
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:21:22-65
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:23:5-66
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:22:5-66
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:23:22-63
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:22:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:24:5-81
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:23:5-81
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:24:22-78
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:23:22-78
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:25:5-71
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:24:5-71
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:25:22-68
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:24:22-68
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:26:5-82
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:22:5-81
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:22:5-81
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:25:5-82
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:22:5-81
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:26:22-79
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:25:22-79
 permission#com.parse.starter.permission.C2D_MESSAGE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:28:5-29:47
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:24:5-109
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:27:5-29:47
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:24:5-109
 	android:protectionLevel
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:29:9-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:28:17-72
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:28:9-64
 uses-permission#com.parse.starter.permission.C2D_MESSAGE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:30:5-80
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:26:5-78
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:31:5-80
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:30:22-77
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:31:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:33:5-80
+	android:name
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:33:22-78
 application
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:32:5-120:19
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-10.0.1.aar/9b3f97887f0cf8f86252ec6934438aaf/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-10.0.1.aar/9b3f97887f0cf8f86252ec6934438aaf/AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:19:5-29:19
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:28:5-50:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/6d0986f4b1090b0130619c5776762481/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/6d0986f4b1090b0130619c5776762481/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:19:5-21:19
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:35:5-135:19
+MERGED from [com.google.android.gms:play-services:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-11.2.0.aar/bae02ba9e2c678f2c2619ef5041a18b4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-11.2.0.aar/bae02ba9e2c678f2c2619ef5041a18b4/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.2.0.aar/c06b6772c6714cc112dc8db740e31c5b/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.2.0.aar/c06b6772c6714cc112dc8db740e31c5b/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/2b9b46587a19195f19f5f479c9406096/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/2b9b46587a19195f19f5f479c9406096/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-core:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c91d5b144fbeddcf9ddab8c1fad48a58/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c91d5b144fbeddcf9ddab8c1fad48a58/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-config-11.2.0.aar/aea698bdf45c1645e1664bcbda887894/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-config-11.2.0.aar/aea698bdf45c1645e1664bcbda887894/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.2.0.aar/514e5bf1bd272a38328c6854e05e1299/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.2.0.aar/514e5bf1bd272a38328c6854e05e1299/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/b8983b29cca89050dc62924f934372ad/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/b8983b29cca89050dc62924f934372ad/AndroidManifest.xml:5:3-17
+MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.2.0.aar/6757e90d91c001911299b4e3bc73a726/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.2.0.aar/6757e90d91c001911299b4e3bc73a726/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.2.0.aar/e9518dda1c74d4d03bee2a0b969fb502/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.2.0.aar/e9518dda1c74d4d03bee2a0b969fb502/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.2.0.aar/3a777ca1fe339c57c6fd6aac620b8ca1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.2.0.aar/3a777ca1fe339c57c6fd6aac620b8ca1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-games-11.2.0.aar/4fddde82049becc979b2925d1977f7e2/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-games-11.2.0.aar/4fddde82049becc979b2925d1977f7e2/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.2.0.aar/a627834e621dd0def01b19c2d07f8d08/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.2.0.aar/a627834e621dd0def01b19c2d07f8d08/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.2.0.aar/cf334b4f9fe94c3d25f6123eae01e0b0/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.2.0.aar/cf334b4f9fe94c3d25f6123eae01e0b0/AndroidManifest.xml:5:3-6:17
+MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.2.0.aar/76bc310de053e130eedd147b784c88cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.2.0.aar/76bc310de053e130eedd147b784c88cb/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.2.0.aar/5609d8ddebd67355d0d176ed42615b22/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.2.0.aar/5609d8ddebd67355d0d176ed42615b22/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-location-11.2.0.aar/c8cf089dd3be3d0735a884d0b6da2557/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-location-11.2.0.aar/c8cf089dd3be3d0735a884d0b6da2557/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-places-11.2.0.aar/99dc520cb512ffb4020d2a86d1cecff4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-places-11.2.0.aar/99dc520cb512ffb4020d2a86d1cecff4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.2.0.aar/bb6c66fe3091e1547f75e663debcb550/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.2.0.aar/bb6c66fe3091e1547f75e663debcb550/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.2.0.aar/dacb6cc5e39d3700af53861bec4cbeae/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.2.0.aar/dacb6cc5e39d3700af53861bec4cbeae/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.2.0.aar/7d05e34c4e67b6e70336f9d8faa3c79f/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.2.0.aar/7d05e34c4e67b6e70336f9d8faa3c79f/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.2.0.aar/2ac2e806e24cd84c4eb4db5ac014c351/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.2.0.aar/2ac2e806e24cd84c4eb4db5ac014c351/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.2.0.aar/34cf201774559c71ee95a4f1e694aa53/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.2.0.aar/34cf201774559c71ee95a4f1e694aa53/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.2.0.aar/36949271d78159d67e64d7685135a7f0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.2.0.aar/36949271d78159d67e64d7685135a7f0/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.2.0.aar/4ea7ade4f9e31d4675c15e7bf5e64c82/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.2.0.aar/4ea7ade4f9e31d4675c15e7bf5e64c82/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/bc30f39210adabf121a44d0d7b4f15fe/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/bc30f39210adabf121a44d0d7b4f15fe/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:19:5-21:19
 MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/26e9763323897e6ce5d435f724e9f20f/AndroidManifest.xml:11:5-20
 MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/26e9763323897e6ce5d435f724e9f20f/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a318746aeab787e94e47d874e9a3d10b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a318746aeab787e94e47d874e9a3d10b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/68ba2aa37f2635453bf1b98dedeeb2df/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/68ba2aa37f2635453bf1b98dedeeb2df/AndroidManifest.xml:22:5-23:19
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:36:9-41
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:39:9-41
 	android:icon
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:35:9-43
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:38:9-43
 	android:allowBackup
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:34:9-35
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:37:9-35
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:37:9-40
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:40:9-40
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:33:9-43
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:36:9-43
 meta-data#com.parse.APPLICATION_ID
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:38:9-40:52
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:41:9-43:52
 	android:value
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:40:13-49
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:43:13-49
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:39:13-52
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:42:13-52
 meta-data#com.parse.CLIENT_KEY
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:41:9-43:56
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:44:9-46:56
 	android:value
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:43:13-53
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:46:13-53
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:42:13-48
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:45:13-48
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:47:9-49:55
+	android:value
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:49:13-52
+	android:name
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:48:13-58
 activity#com.parse.starter.activity.LoginActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:46:9-55:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:51:9-60:20
 	android:screenOrientation
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:49:13-49
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:54:13-49
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:48:13-45
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:53:13-45
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:47:13-51
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:52:13-51
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:50:13-54:29
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:51:17-69
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:51:25-66
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:53:17-77
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:53:27-74
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:58:27-74
 meta-data#com.parse.push.gcm_sender_id
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:57:9-58:74
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:62:9-64:74
 	android:value
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:58:13-71
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:64:13-71
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:57:20-63
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:63:13-56
 service#com.parse.PushService
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:59:9-57
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:66:9-57
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:59:18-54
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:66:18-54
 receiver#com.parse.GcmBroadcastReceiver
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:60:9-66:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:68:9-77:20
 	android:permission
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:60:65-125
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:70:13-73
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:60:19-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:69:13-58
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:com.parse.starter
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:61:13-65:29
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:71:13-76:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:62:17-81
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:72:17-81
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:62:25-78
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:72:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:63:17-86
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:73:17-86
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:63:25-83
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:73:25-83
 category#com.parse.starter
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:64:17-62
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:75:17-62
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:64:27-59
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:75:27-59
 receiver#com.parse.ParsePushBroadcastReceiver
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:67:9-73:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:78:9-86:20
 	android:exported
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:67:71-95
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:80:13-37
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:67:19-70
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:79:13-64
 intent-filter#action:name:com.parse.push.intent.DELETE+action:name:com.parse.push.intent.OPEN+action:name:com.parse.push.intent.RECEIVE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:68:13-72:29
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:81:13-85:29
 action#com.parse.push.intent.RECEIVE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:69:17-72
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:82:17-72
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:69:25-69
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:82:25-69
 action#com.parse.push.intent.OPEN
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:70:17-69
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:83:17-69
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:70:25-66
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:83:25-66
 action#com.parse.push.intent.DELETE
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:71:17-71
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:84:17-71
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:71:25-68
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:84:25-68
 activity#com.parse.starter.activity.MainActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:75:9-59
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:88:9-59
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:75:19-56
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:88:19-56
 activity#com.parse.starter.activity.CadastroActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:76:9-63
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:89:9-63
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:76:19-60
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:89:19-60
 activity#com.parse.starter.activity.PerfilArtistaActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:77:9-85:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:90:9-98:20
 	android:parentActivityName
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:80:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:93:13-64
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:79:13-66
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:92:13-66
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:81:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:94:13-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:78:13-59
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:91:13-59
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:82:13-84:75
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:95:13-97:75
 	android:value
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:84:17-72
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:97:17-72
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:83:17-63
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:96:17-63
 activity#com.parse.starter.activity.PerfilConfigArtistaActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:86:9-94:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:99:9-107:20
 	android:parentActivityName
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:89:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:102:13-64
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:88:13-73
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:101:13-73
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:90:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:103:13-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:87:13-65
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:100:13-65
 activity#com.parse.starter.activity.PerfilConfigEventoActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:95:9-103:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:108:9-116:20
 	android:parentActivityName
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:98:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:111:13-64
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:97:13-72
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:110:13-72
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:99:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:112:13-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:96:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:109:13-64
 activity#com.parse.starter.activity.PerfilEventoActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:104:9-112:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:117:9-125:20
 	android:parentActivityName
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:107:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:120:13-64
 	android:label
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:106:13-65
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:119:13-65
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:108:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:121:13-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:105:13-58
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:118:13-58
 activity#com.parse.starter.activity.WebViewArtistaActivity
-ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:113:9-119:20
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:126:9-133:20
 	android:parentActivityName
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:114:13-64
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:128:13-64
 	android:theme
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:115:13-44
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:129:13-44
 	android:name
-		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:113:19-66
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:127:13-60
+activity#com.parse.starter.activity.MapaEventosActivity
+ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:134:9-75
+	android:name
+		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml:134:19-63
 uses-sdk
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-10.0.1.aar/9b3f97887f0cf8f86252ec6934438aaf/AndroidManifest.xml:4:5-42
-MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-10.0.1.aar/9b3f97887f0cf8f86252ec6934438aaf/AndroidManifest.xml:4:5-42
 MERGED from [com.android.support:design:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4302556eeb63ec48c6cbce8f512c54e0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/4302556eeb63ec48c6cbce8f512c54e0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-11.2.0.aar/bae02ba9e2c678f2c2619ef5041a18b4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-11.2.0.aar/bae02ba9e2c678f2c2619ef5041a18b4/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.2.0.aar/c06b6772c6714cc112dc8db740e31c5b/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.2.0.aar/c06b6772c6714cc112dc8db740e31c5b/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/2b9b46587a19195f19f5f479c9406096/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/2b9b46587a19195f19f5f479c9406096/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/355c3b23b4ea579661954eb6c6a1a9cb/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/355c3b23b4ea579661954eb6c6a1a9cb/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:17:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:3:5-42
-MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/6d0986f4b1090b0130619c5776762481/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-10.0.1.aar/6d0986f4b1090b0130619c5776762481/AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-core:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c91d5b144fbeddcf9ddab8c1fad48a58/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-core-11.2.0.aar/c91d5b144fbeddcf9ddab8c1fad48a58/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-crash:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.2.0.aar/724ee12acdb14dc31ddeed19694a6b92/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.2.0.aar/57c0410182853304a6d8e4f600397b77/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-11.2.0.aar/57c0410182853304a6d8e4f600397b77/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-config-11.2.0.aar/aea698bdf45c1645e1664bcbda887894/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-config-11.2.0.aar/aea698bdf45c1645e1664bcbda887894/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.2.0.aar/514e5bf1bd272a38328c6854e05e1299/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.2.0.aar/514e5bf1bd272a38328c6854e05e1299/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-11.2.0.aar/dbdf25160726849594d8743804f239a5/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-11.2.0.aar/dbdf25160726849594d8743804f239a5/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.2.0.aar/6469303f38c0b4983907525b5568bd10/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.2.0.aar/6469303f38c0b4983907525b5568bd10/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/b8983b29cca89050dc62924f934372ad/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-dynamic-links:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-dynamic-links-11.2.0.aar/b8983b29cca89050dc62924f934372ad/AndroidManifest.xml:3:3-41
+MERGED from [com.google.firebase:firebase-storage:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.2.0.aar/3341917fbd2aad16ee393f99112f3b79/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.2.0.aar/3341917fbd2aad16ee393f99112f3b79/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.2.0.aar/6757e90d91c001911299b4e3bc73a726/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-appindexing-11.2.0.aar/6757e90d91c001911299b4e3bc73a726/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.2.0.aar/176634b88606798dcc820085cc03da8a/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.2.0.aar/176634b88606798dcc820085cc03da8a/AndroidManifest.xml:17:5-94
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.2.0.aar/e66f78245754c4d1845efaabbaed7058/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.2.0.aar/e9518dda1c74d4d03bee2a0b969fb502/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-v4-impl-11.2.0.aar/e9518dda1c74d4d03bee2a0b969fb502/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.2.0.aar/f90713d118c70102d0652840319709e8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.2.0.aar/460ab6cb902f298271e2176a0739c5e5/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-11.2.0.aar/460ab6cb902f298271e2176a0739c5e5/AndroidManifest.xml:3:3-41
+MERGED from [com.google.android.gms:play-services-auth-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.2.0.aar/acbd5c025e0a62956b23eee78fc33136/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-11.2.0.aar/acbd5c025e0a62956b23eee78fc33136/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.2.0.aar/3a777ca1fe339c57c6fd6aac620b8ca1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-awareness-11.2.0.aar/3a777ca1fe339c57c6fd6aac620b8ca1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-games-11.2.0.aar/4fddde82049becc979b2925d1977f7e2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-games-11.2.0.aar/4fddde82049becc979b2925d1977f7e2/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.2.0.aar/a627834e621dd0def01b19c2d07f8d08/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-drive-11.2.0.aar/a627834e621dd0def01b19c2d07f8d08/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.2.0.aar/cf334b4f9fe94c3d25f6123eae01e0b0/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fido:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fido-11.2.0.aar/cf334b4f9fe94c3d25f6123eae01e0b0/AndroidManifest.xml:4:3-41
+MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.2.0.aar/76bc310de053e130eedd147b784c88cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-fitness:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-fitness-11.2.0.aar/76bc310de053e130eedd147b784c88cb/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.2.0.aar/2b17e220f12cdd9e900a48e69bd82e60/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.2.0.aar/6d16c58a752d3b15987c4f80de2ae68e/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-wallet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.2.0.aar/6d16c58a752d3b15987c4f80de2ae68e/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.2.0.aar/5609d8ddebd67355d0d176ed42615b22/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-identity:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-identity-11.2.0.aar/5609d8ddebd67355d0d176ed42615b22/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.2.0.aar/dfb6ccf70de279af647cea9e2eba9967/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.2.0.aar/b9833e1229c8c25e0003aa178d5e2464/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-instantapps-11.2.0.aar/b9833e1229c8c25e0003aa178d5e2464/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-location-11.2.0.aar/c8cf089dd3be3d0735a884d0b6da2557/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-location-11.2.0.aar/c8cf089dd3be3d0735a884d0b6da2557/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-places-11.2.0.aar/99dc520cb512ffb4020d2a86d1cecff4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-places-11.2.0.aar/99dc520cb512ffb4020d2a86d1cecff4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.2.0.aar/38593e66b8a3668c6474945e34f15186/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-nearby-11.2.0.aar/c65395509f043b01d78a96ef5143a26e/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.2.0.aar/bb6c66fe3091e1547f75e663debcb550/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-panorama:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-panorama-11.2.0.aar/bb6c66fe3091e1547f75e663debcb550/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.2.0.aar/dacb6cc5e39d3700af53861bec4cbeae/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.2.0.aar/dacb6cc5e39d3700af53861bec4cbeae/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.2.0.aar/7d05e34c4e67b6e70336f9d8faa3c79f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-11.2.0.aar/7d05e34c4e67b6e70336f9d8faa3c79f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.2.0.aar/2ac2e806e24cd84c4eb4db5ac014c351/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-11.2.0.aar/2ac2e806e24cd84c4eb4db5ac014c351/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.2.0.aar/34cf201774559c71ee95a4f1e694aa53/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-vision-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-11.2.0.aar/34cf201774559c71ee95a4f1e694aa53/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.2.0.aar/36949271d78159d67e64d7685135a7f0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wearable:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-wearable-11.2.0.aar/36949271d78159d67e64d7685135a7f0/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.2.0.aar/fb7421def859ebae27fc617338cf8a79/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-11.2.0.aar/fb7421def859ebae27fc617338cf8a79/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.2.0.aar/4ea7ade4f9e31d4675c15e7bf5e64c82/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-gass-11.2.0.aar/4ea7ade4f9e31d4675c15e7bf5e64c82/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/bc30f39210adabf121a44d0d7b4f15fe/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.2.0.aar/bc30f39210adabf121a44d0d7b4f15fe/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b1822a9d40294ddc1982eb8fdf2636e5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/b1822a9d40294ddc1982eb8fdf2636e5/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/807eb3afa8d13062663714fb35b5fef1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/807eb3afa8d13062663714fb35b5fef1/AndroidManifest.xml:20:5-44
 MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/26e9763323897e6ce5d435f724e9f20f/AndroidManifest.xml:7:5-9:41
 MERGED from [com.splitwise:tokenautocomplete:2.0.8] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/tokenautocomplete-2.0.8.aar/26e9763323897e6ce5d435f724e9f20f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a318746aeab787e94e47d874e9a3d10b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/a318746aeab787e94e47d874e9a3d10b/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:transition:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/4b2bf1fc6267c41f7f6d31d34aa45d46/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/4b2bf1fc6267c41f7f6d31d34aa45d46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/879754b9dba0e84bcf2b895e244cc0f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/f37273a60b749ed843271ac816ae6095/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/9095285ecca0aeed93a8adcd4435ec0f/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d385115169cd7952be33f7e75e32ca32/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/d385115169cd7952be33f7e75e32ca32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/fd1c27c7703c1ee4db85798bfaf321a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/68ba2aa37f2635453bf1b98dedeeb2df/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:25.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/68ba2aa37f2635453bf1b98dedeeb2df/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dcb1bae8186d61272130d445841b13e6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9e3f2055956652ec879bd55656462659/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.0.2] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/9e3f2055956652ec879bd55656462659/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f9aebded1e5bc6eda04df201090de63a/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/f9aebded1e5bc6eda04df201090de63a/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-11.2.0.aar/176634b88606798dcc820085cc03da8a/AndroidManifest.xml:17:42-92
 	android:targetSdkVersion
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
@@ -351,105 +627,217 @@ INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterP
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 		ADDED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/marcelomenezes/AndroidStudioProjects/MusicaPE/ParseStarterProject/src/main/AndroidManifest.xml
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.2.0.aar/5181d707197c64f0e330f9e65294cb18/AndroidManifest.xml:7:18-90
 service#com.google.firebase.messaging.FirebaseMessagingService
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:23:9-27:19
+ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:23:9-27:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:23:88-111
+		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:23:88-111
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:23:18-87
+		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:23:18-87
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:24:13-26:29
+ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:24:13-26:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:24:28-51
+		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:24:28-51
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:25:17-77
+ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-10.0.1.aar/ead40119d56447680a3729b0f363225b/AndroidManifest.xml:25:25-75
+		ADDED from [com.google.firebase:firebase-messaging:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-messaging-11.2.0.aar/bea7f7db4df4eccbf1b8e1359a787e60/AndroidManifest.xml:25:25-75
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:25:118-142
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:25:94-117
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:25:19-93
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.${applicationId}
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:26:13-31:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tagmanager.c.com.parse.starter
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:29:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.2.0.aar/863c40cbd92c54d768b3cebad73f0768/AndroidManifest.xml:30:27-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:27:185-208
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:27:17-104
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:27:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-10.0.1.aar/4b9a9e9076b370f11adb7979f313e0c1/AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:27:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.2.0.aar/e7ad357d9cae1604bcca6213e1ed5e2a/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-10.0.1.aar/70237d51ac09c39309231ea19546273f/AndroidManifest.xml:32:16-87
-permission#${applicationId}.permission.C2D_MESSAGE
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:24:5-109
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:26:5-78
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:30:9-36:20
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:33:148-170
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:33:171-195
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:33:91-147
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:30:19-84
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+action:name:com.google.android.c2dm.intent.REGISTRATION+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:31:13-35:29
+		ADDED from [com.google.firebase:firebase-analytics:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.2.0.aar/32c4ab1964dfb1dc402d1124bde98de5/AndroidManifest.xml:33:16-90
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:24:5-109
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:26:5-78
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.parse.starter
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:31:13-34:29
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:34:17-60
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:34:27-58
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:40:9-119
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:40:93-117
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:40:19-92
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:44:9-48:19
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:44:83-106
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:44:18-82
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:43:18-82
 intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:45:13-47:29
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:45:28-51
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:46:17-79
+ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-10.0.1.aar/2f902a9dbe43884c293b2d5a74ac76f7/AndroidManifest.xml:46:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:6:9-194
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-iid:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.2.0.aar/c1de9e3e7e25b803d7529b5635c876fa/AndroidManifest.xml:45:25-77
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:6:144-168
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:20:19-50
+intent-filter#action:name:com.google.android.gms.appinvite.ACTION_PREVIEW+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.2.0.aar/e25a4d2c5953ca4c5612164302b0d3b9/AndroidManifest.xml:22:25-87
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-10.0.1.aar/910cfca977423b79a1107eb3d6f960bd/AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/firebase-common-11.2.0.aar/dd3c06fc63107e178a8331840b62ca84/AndroidManifest.xml:6:79-143
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:25:9-257
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:25:231-255
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.2.0.aar/6abe2ffc9fb23af758d861565c07738b/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.2.0.aar/ca2f23cd8ff13fb044848da35a5f53b2/AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-base-11.2.0.aar/ab598f15493c5d6635c7816c181e1b0f/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-10.0.1.aar/0e53bdf6e92e3912e746028816531ae8/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.2.0] /Users/marcelomenezes/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.2.0.aar/d6caaed1aa48077eb16622a933b4ded3/AndroidManifest.xml:20:20-65

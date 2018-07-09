@@ -158,9 +158,17 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
             case R.id.action_adicionar_evento:
                 adicionarEvento();
                 return true;
+            case R.id.action_mapa:
+                abrirMapa();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
+    }
+
+    private void abrirMapa(){
+        Intent intent = new Intent(this, MapaEventosActivity.class);
+        startActivity(intent);
     }
 
     private void adicionarEvento(){

@@ -181,7 +181,7 @@ public class ArtistaFragment extends Fragment implements SwipeRefreshLayout.OnRe
     public List<ParseObject> getArtistasCarregados(){
 
         query = ParseUser.getQuery();
-        query.whereNotEqualTo("flagArtista", "NO");
+        query.whereEqualTo("flagArtista", "YES");
         recuperarArtistas = new ArrayList<>();
         carregarArtistas = new ArrayList<>();
 

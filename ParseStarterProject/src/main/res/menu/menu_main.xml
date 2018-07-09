@@ -34,5 +34,9 @@
         app:actionViewClass="android.support.v7.widget.SearchView"
         app:showAsAction="always|collapseActionView" />
 
+    <item android:id="@+id/action_mapa"
+        android:title="Mapa Eventos"
+        app:showAsAction="never"/>
+
 
 </menu>

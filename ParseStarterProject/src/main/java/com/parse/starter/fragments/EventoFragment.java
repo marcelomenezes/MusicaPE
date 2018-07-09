@@ -224,7 +224,4 @@ public class EventoFragment extends Fragment implements SwipeRefreshLayout.OnRef
 
 
     }
-
-
-
 }

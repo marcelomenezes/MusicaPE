@@ -99,6 +99,7 @@ public class CadastroActivity extends AppCompatActivity {
         usuario.setPassword(cadastroSenha.getText().toString());
         usuario.put("nomeArtista", cadastroNome.getText().toString());
         usuario.put("imagem", arquivoParse);
+        usuario.put("ritmos", "");
 
         //checar se é artista ou não
         CheckBox checkBox = (CheckBox) findViewById(R.id.item_check);
